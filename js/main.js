@@ -6,10 +6,10 @@ var MainSvg =  d3.select("#MainPanel").append("svg")
     .attr('height', '100%')
     .style('position','absolute');
 
-var width = 500;
-var height = 500;
+var width = window.innerWidth;
+var height = window.innerHeight;
 
-d3.json("../assets/usStates.json", function(json) {
+d3.json("../assets/usStates - Copy.json", function(json) {
 
     //Bind data and create one path per GeoJSON feature
     var  states  = MainSvg.append("g")
@@ -18,8 +18,8 @@ d3.json("../assets/usStates.json", function(json) {
 
     // create a first guess for the projection
     var center = d3.geo.centroid(json)
-    var scale  = 150;
-    var offset = [width/2, height/2];
+    var scale  = 1200;
+    var offset = [600, 300];
     var projection = d3.geo.mercator().scale(scale).center(center)
         .translate(offset);
 
@@ -50,9 +50,9 @@ d3.json("../assets/usStates.json", function(json) {
 
 var  mousoverState = function(stateData, path){
     d3.select(path).attr("fill", "#ff4444");
-    //console.log(stateData.properties.STATE);
+    console.log(stateData.properties.NAME);
 };
 
 var mouseoutState = function(stateData, path){
-    d3.select(this).attr("fill", "#666666");
+    d3.select(path).attr("fill", "#666666");
 };
