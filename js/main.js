@@ -9,7 +9,7 @@ var MainSvg =  d3.select("#MainPanel").append("svg")
 var width = window.innerWidth;
 var height = window.innerHeight;
 
-d3.json("../assets/usStates - Copy.json", function(json) {
+d3.json("../assets/500k.json", function(json) {
 
     //Bind data and create one path per GeoJSON feature
     var  states  = MainSvg.append("g")
@@ -39,6 +39,7 @@ d3.json("../assets/usStates - Copy.json", function(json) {
         .append("path")
         .attr("d", path)
         .attr("fill","#666666")
+        .attr("stroke","#ffffff")
         .on('mouseover', function(d) {
             mousoverState(d,this);
         })

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SWEN-439-Visualisation.iml" filepath="$PROJECT_DIR$/.idea/SWEN-439-Visualisation.iml" />
       <module fileurl="file://$USER_HOME$/Documents/Victoria/SWEN 439/Code/USRacialVisualisation/.idea/USRacialVisualisation.iml" filepath="$USER_HOME$/Documents/Victoria/SWEN 439/Code/USRacialVisualisation/.idea/USRacialVisualisation.iml" />
     </modules>
   </component>
