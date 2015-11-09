@@ -1,824 +1,1243 @@
 {
   "EXT": {
-    "Pasific Islander": {"IncomeMale": 36585.7},
+    "Pasific Islander": {
+      "IncomeMale": 36585.7,
+      "TotalMale": 684
+    },
     "IncomeMale": 54094.18,
-    "Native Hawaiian": {"IncomeMale": 80673},
+    "Native Hawaiian": {
+      "IncomeMale": 80673,
+      "TotalMale": 102
+    },
     "White": {
       "IncomeMale": 54581.09,
+      "TotalMale": 98841,
+      "TotalFemale": 3993,
       "IncomeFemale": 58610.17
     },
+    "TotalMale": 113666,
     "American Indian": {
       "IncomeMale": 62429.28,
+      "TotalMale": 2882,
+      "TotalFemale": 621,
       "IncomeFemale": 9075
     },
-    "Asian": {"IncomeMale": 34525},
+    "TotalFemale": 5468,
+    "Asian": {
+      "IncomeMale": 34525,
+      "TotalMale": 671
+    },
     "IncomeFemale": 48750.39,
     "African American": {
       "IncomeMale": 56972.45,
+      "TotalMale": 7569,
+      "TotalFemale": 667,
       "IncomeFemale": 36373.75
     },
     "Other": {
       "IncomeMale": 34679.72,
+      "TotalMale": 5060,
+      "TotalFemale": 187,
       "IncomeFemale": 14117
     }
   },
   "00": {
     "Pasific Islander": {
       "IncomeMale": 35244.28,
+      "TotalMale": 200886,
+      "TotalFemale": 198836,
       "IncomeFemale": 28269.75
     },
     "IncomeMale": 44274.89,
     "Native Hawaiian": {
       "IncomeMale": 35673.93,
+      "TotalMale": 153013,
+      "TotalFemale": 152012,
       "IncomeFemale": 26341.05
     },
     "White": {
       "IncomeMale": 46617.1,
+      "TotalMale": 74982503,
+      "TotalFemale": 68383194,
       "IncomeFemale": 29817.58
     },
+    "TotalMale": 96040439,
     "American Indian": {
       "IncomeMale": 29756.76,
+      "TotalMale": 1419177,
+      "TotalFemale": 1370246,
       "IncomeFemale": 22606.96
     },
+    "TotalFemale": 89682318,
     "Asian": {
       "IncomeMale": 54962.31,
+      "TotalMale": 5705838,
+      "TotalFemale": 5620340,
       "IncomeFemale": 37985.54
     },
     "IncomeFemale": 29392.83,
     "African American": {
       "IncomeMale": 29668.87,
+      "TotalMale": 10918334,
+      "TotalFemale": 12303681,
       "IncomeFemale": 26123.43
     },
     "Other": {
       "IncomeMale": 28553.61,
+      "TotalMale": 4981779,
+      "TotalFemale": 3934906,
       "IncomeFemale": 20533.34
     }
   },
   "PRD": {
     "Pasific Islander": {
       "IncomeMale": 27420.27,
+      "TotalMale": 19043,
+      "TotalFemale": 7948,
       "IncomeFemale": 20980.08
     },
     "IncomeMale": 33901.72,
     "Native Hawaiian": {
       "IncomeMale": 39607.17,
+      "TotalMale": 6885,
+      "TotalFemale": 3892,
       "IncomeFemale": 12665.38
     },
     "White": {
       "IncomeMale": 35446.33,
+      "TotalMale": 5946003,
+      "TotalFemale": 2237416,
       "IncomeFemale": 20482.94
     },
+    "TotalMale": 7784796,
     "American Indian": {
       "IncomeMale": 30159.84,
+      "TotalMale": 123108,
+      "TotalFemale": 59430,
       "IncomeFemale": 15192.31
     },
+    "TotalFemale": 3318790,
     "Asian": {
       "IncomeMale": 32782.23,
+      "TotalMale": 383876,
+      "TotalFemale": 274482,
       "IncomeFemale": 21834.92
     },
     "IncomeFemale": 20285.95,
     "African American": {
       "IncomeMale": 27307.58,
+      "TotalMale": 951097,
+      "TotalFemale": 516785,
       "IncomeFemale": 20746.04
     },
     "Other": {
       "IncomeMale": 28928.81,
+      "TotalMale": 508803,
+      "TotalFemale": 293068,
       "IncomeFemale": 16798.4
     }
   },
   "CLN": {
     "Pasific Islander": {
       "IncomeMale": 22518.95,
+      "TotalMale": 11273,
+      "TotalFemale": 8188,
       "IncomeFemale": 11539.86
     },
     "IncomeMale": 18296.34,
     "Native Hawaiian": {
       "IncomeMale": 14820.05,
+      "TotalMale": 9171,
+      "TotalFemale": 4457,
       "IncomeFemale": 15736.83
     },
     "White": {
       "IncomeMale": 18782.63,
+      "TotalMale": 3427604,
+      "TotalFemale": 2190088,
       "IncomeFemale": 10011.17
     },
+    "TotalMale": 4767629,
     "American Indian": {
       "IncomeMale": 13805.63,
+      "TotalMale": 100615,
+      "TotalFemale": 69020,
       "IncomeFemale": 9477.11
     },
+    "TotalFemale": 3299274,
     "Asian": {
       "IncomeMale": 19540.89,
+      "TotalMale": 132842,
+      "TotalFemale": 120172,
       "IncomeFemale": 16312.24
     },
     "IncomeFemale": 10840.26,
     "African American": {
       "IncomeMale": 15316.95,
+      "TotalMale": 738967,
+      "TotalFemale": 537494,
       "IncomeFemale": 13243.2
     },
     "Other": {
       "IncomeMale": 19208.76,
+      "TotalMale": 467057,
+      "TotalFemale": 443414,
       "IncomeFemale": 10421.68
     }
   },
   "FFF": {
     "Pasific Islander": {
       "IncomeMale": 44091.45,
+      "TotalMale": 405,
+      "TotalFemale": 510,
       "IncomeFemale": 19011.71
     },
     "IncomeMale": 18490.53,
     "Native Hawaiian": {
       "IncomeMale": 23545.03,
+      "TotalMale": 1560,
+      "TotalFemale": 823,
       "IncomeFemale": 6150.23
     },
     "White": {
       "IncomeMale": 18684.67,
+      "TotalMale": 906835,
+      "TotalFemale": 309684,
       "IncomeFemale": 11467.92
     },
+    "TotalMale": 1135610,
     "American Indian": {
       "IncomeMale": 15240.16,
+      "TotalMale": 31176,
+      "TotalFemale": 9298,
       "IncomeFemale": 8837.71
     },
+    "TotalFemale": 414668,
     "Asian": {
       "IncomeMale": 20025.26,
+      "TotalMale": 18209,
+      "TotalFemale": 10449,
       "IncomeFemale": 14011.87
     },
     "IncomeFemale": 11132.88,
     "African American": {
       "IncomeMale": 15412.16,
+      "TotalMale": 55795,
+      "TotalFemale": 19395,
       "IncomeFemale": 11856.13
     },
     "Other": {
       "IncomeMale": 18404.97,
+      "TotalMale": 143321,
+      "TotalFemale": 71272,
       "IncomeFemale": 9324.3
     }
   },
   "ENT": {
     "Pasific Islander": {
       "IncomeMale": 42460.69,
+      "TotalMale": 3014,
+      "TotalFemale": 3491,
       "IncomeFemale": 19747.8
     },
     "IncomeMale": 39489.51,
     "Native Hawaiian": {
       "IncomeMale": 22958.59,
+      "TotalMale": 3444,
+      "TotalFemale": 3368,
       "IncomeFemale": 23203.48
     },
     "White": {
       "IncomeMale": 41000.24,
+      "TotalMale": 1602208,
+      "TotalFemale": 1542948,
       "IncomeFemale": 26614.05
     },
+    "TotalMale": 1929520,
     "American Indian": {
       "IncomeMale": 25361.8,
+      "TotalMale": 25359,
+      "TotalFemale": 24133,
       "IncomeFemale": 20715.84
     },
+    "TotalFemale": 1816473,
     "Asian": {
       "IncomeMale": 37811.61,
+      "TotalMale": 113523,
+      "TotalFemale": 130976,
       "IncomeFemale": 34244.02
     },
     "IncomeFemale": 27092.84,
     "African American": {
       "IncomeMale": 28499.8,
+      "TotalMale": 180932,
+      "TotalFemale": 121389,
       "IncomeFemale": 27450.54
     },
     "Other": {
       "IncomeMale": 32207.49,
+      "TotalMale": 58161,
+      "TotalFemale": 47875,
       "IncomeFemale": 25465.45
     }
   },
   "OFF": {
     "Pasific Islander": {
       "IncomeMale": 25872.36,
+      "TotalMale": 19062,
+      "TotalFemale": 45268,
       "IncomeFemale": 21962.78
     },
     "IncomeMale": 29861.5,
     "Native Hawaiian": {
       "IncomeMale": 25182.89,
+      "TotalMale": 13101,
+      "TotalFemale": 37778,
       "IncomeFemale": 24761.43
     },
     "White": {
       "IncomeMale": 31124.7,
+      "TotalMale": 5083413,
+      "TotalFemale": 13944957,
       "IncomeFemale": 24787.55
     },
+    "TotalMale": 6929279,
     "American Indian": {
       "IncomeMale": 24516.18,
+      "TotalMale": 110410,
+      "TotalFemale": 254572,
       "IncomeFemale": 21983.1
     },
+    "TotalFemale": 17696714,
     "Asian": {
       "IncomeMale": 31118.69,
+      "TotalMale": 436744,
+      "TotalFemale": 813200,
       "IncomeFemale": 26449.24
     },
     "IncomeFemale": 24822.13,
     "African American": {
       "IncomeMale": 24443.06,
+      "TotalMale": 1137017,
+      "TotalFemale": 2373826,
       "IncomeFemale": 24902.99
     },
     "Other": {
       "IncomeMale": 25797.27,
+      "TotalMale": 340259,
+      "TotalFemale": 657964,
       "IncomeFemale": 23189.29
     }
   },
   "HLS": {
     "Pasific Islander": {
       "IncomeMale": 20383.39,
+      "TotalMale": 1900,
+      "TotalFemale": 9048,
       "IncomeFemale": 33224.37
     },
     "IncomeMale": 24999.81,
     "Native Hawaiian": {
       "IncomeMale": 15455.12,
+      "TotalMale": 1234,
+      "TotalFemale": 3442,
       "IncomeFemale": 15593.04
     },
     "White": {
       "IncomeMale": 25679.68,
+      "TotalMale": 345251,
+      "TotalFemale": 2473312,
       "IncomeFemale": 19228.22
     },
+    "TotalMale": 557688,
     "American Indian": {
       "IncomeMale": 18760.85,
+      "TotalMale": 9730,
+      "TotalFemale": 69088,
       "IncomeFemale": 19944.6
     },
+    "TotalFemale": 3849036,
     "Asian": {
       "IncomeMale": 25625.91,
+      "TotalMale": 47699,
+      "TotalFemale": 186529,
       "IncomeFemale": 23538.89
     },
     "IncomeFemale": 19533.14,
     "African American": {
       "IncomeMale": 23175.51,
+      "TotalMale": 145593,
+      "TotalFemale": 1000522,
       "IncomeFemale": 19566.05
     },
     "Other": {
       "IncomeMale": 23682.25,
+      "TotalMale": 24586,
+      "TotalFemale": 211519,
       "IncomeFemale": 20001.72
     }
   },
   "PRS": {
     "Pasific Islander": {
       "IncomeMale": 12460.91,
+      "TotalMale": 4301,
+      "TotalFemale": 15216,
       "IncomeFemale": 12685.67
     },
     "IncomeMale": 16491,
     "Native Hawaiian": {
       "IncomeMale": 12321.89,
+      "TotalMale": 4992,
+      "TotalFemale": 8609,
       "IncomeFemale": 13933.05
     },
     "White": {
       "IncomeMale": 16609.94,
+      "TotalMale": 1133292,
+      "TotalFemale": 4111896,
       "IncomeFemale": 10553.43
     },
+    "TotalMale": 1643508,
     "American Indian": {
       "IncomeMale": 14086.67,
+      "TotalMale": 37129,
+      "TotalFemale": 106315,
       "IncomeFemale": 9807.09
     },
+    "TotalFemale": 5733580,
     "Asian": {
       "IncomeMale": 18022.98,
+      "TotalMale": 155207,
+      "TotalFemale": 474541,
       "IncomeFemale": 13160.55
     },
     "IncomeFemale": 10896.44,
     "African American": {
       "IncomeMale": 14734.24,
+      "TotalMale": 295068,
+      "TotalFemale": 889690,
       "IncomeFemale": 11304.9
     },
     "Other": {
       "IncomeMale": 17667.04,
+      "TotalMale": 72193,
+      "TotalFemale": 292863,
       "IncomeFemale": 10278.45
     }
   },
   "TRN": {
     "Pasific Islander": {
       "IncomeMale": 25486.61,
+      "TotalMale": 26189,
+      "TotalFemale": 5881,
       "IncomeFemale": 24973.88
     },
     "IncomeMale": 28131.22,
     "Native Hawaiian": {
       "IncomeMale": 25796.83,
+      "TotalMale": 17077,
+      "TotalFemale": 4823,
       "IncomeFemale": 26081.23
     },
     "White": {
       "IncomeMale": 29445.43,
+      "TotalMale": 7263225,
+      "TotalFemale": 1416269,
       "IncomeFemale": 18385.63
     },
+    "TotalMale": 9990272,
     "American Indian": {
       "IncomeMale": 24157.88,
+      "TotalMale": 160608,
+      "TotalFemale": 45693,
       "IncomeFemale": 15084.84
     },
+    "TotalFemale": 2074491,
     "Asian": {
       "IncomeMale": 23335.57,
+      "TotalMale": 350302,
+      "TotalFemale": 70117,
       "IncomeFemale": 19212.77
     },
     "IncomeFemale": 18194.82,
     "African American": {
       "IncomeMale": 24097.88,
+      "TotalMale": 1770746,
+      "TotalFemale": 425463,
       "IncomeFemale": 18126.91
     },
     "Other": {
       "IncomeMale": 26356.62,
+      "TotalMale": 656722,
+      "TotalFemale": 167046,
       "IncomeFemale": 15591.07
     }
   },
   "PRT": {
     "Pasific Islander": {
       "IncomeMale": 36336.6,
+      "TotalMale": 8272,
+      "TotalFemale": 1823,
       "IncomeFemale": 29058.82
     },
     "IncomeMale": 42971.87,
     "Native Hawaiian": {
       "IncomeMale": 44057.5,
+      "TotalMale": 9494,
+      "TotalFemale": 2159,
       "IncomeFemale": 19813.9
     },
     "White": {
       "IncomeMale": 44879.42,
+      "TotalMale": 2418803,
+      "TotalFemale": 624462,
       "IncomeFemale": 28586.02
     },
+    "TotalMale": 3144073,
     "American Indian": {
       "IncomeMale": 36620.01,
+      "TotalMale": 58293,
+      "TotalFemale": 20079,
       "IncomeFemale": 23735.41
     },
+    "TotalFemale": 946600,
     "Asian": {
       "IncomeMale": 41047.51,
+      "TotalMale": 100153,
+      "TotalFemale": 24709,
       "IncomeFemale": 26421.59
     },
     "IncomeFemale": 28931.92,
     "African American": {
       "IncomeMale": 35346.59,
+      "TotalMale": 534661,
+      "TotalFemale": 270327,
       "IncomeFemale": 29917.55
     },
     "Other": {
       "IncomeMale": 38832.72,
+      "TotalMale": 111730,
+      "TotalFemale": 33407,
       "IncomeFemale": 31319.9
     }
   },
   "RPR": {
     "Pasific Islander": {
       "IncomeMale": 33178.49,
+      "TotalMale": 10782,
+      "TotalFemale": 1131,
       "IncomeFemale": 38722.88
     },
     "IncomeMale": 37154.8,
     "Native Hawaiian": {
       "IncomeMale": 44504.17,
+      "TotalMale": 9327,
+      "TotalFemale": 905,
       "IncomeFemale": 47299.18
     },
     "White": {
       "IncomeMale": 38038.8,
+      "TotalMale": 4637552,
+      "TotalFemale": 175319,
       "IncomeFemale": 30914.2
     },
+    "TotalMale": 5567127,
     "American Indian": {
       "IncomeMale": 34902.84,
+      "TotalMale": 87020,
+      "TotalFemale": 4099,
       "IncomeFemale": 25598.93
     },
+    "TotalFemale": 239097,
     "Asian": {
       "IncomeMale": 38197.74,
+      "TotalMale": 174434,
+      "TotalFemale": 16079,
       "IncomeFemale": 37156
     },
     "IncomeFemale": 31832.01,
     "African American": {
       "IncomeMale": 32121.74,
+      "TotalMale": 470080,
+      "TotalFemale": 37393,
       "IncomeFemale": 32437.85
     },
     "Other": {
       "IncomeMale": 31064.56,
+      "TotalMale": 288262,
+      "TotalFemale": 11246,
       "IncomeFemale": 35221.49
     }
   },
   "EDU": {
     "Pasific Islander": {
       "IncomeMale": 45832.48,
+      "TotalMale": 4613,
+      "TotalFemale": 9227,
       "IncomeFemale": 30887.41
     },
     "IncomeMale": 38647.47,
     "Native Hawaiian": {
       "IncomeMale": 36494.04,
+      "TotalMale": 3452,
+      "TotalFemale": 9613,
       "IncomeFemale": 30093.02
     },
     "White": {
       "IncomeMale": 40140.06,
+      "TotalMale": 1689178,
+      "TotalFemale": 6119502,
       "IncomeFemale": 30155.15
     },
+    "TotalMale": 2067116,
     "American Indian": {
       "IncomeMale": 30631.62,
+      "TotalMale": 26325,
+      "TotalFemale": 89931,
       "IncomeFemale": 27164.73
     },
+    "TotalFemale": 7329922,
     "Asian": {
       "IncomeMale": 26600.37,
+      "TotalMale": 107558,
+      "TotalFemale": 295670,
       "IncomeFemale": 25846.19
     },
     "IncomeFemale": 29768.89,
     "African American": {
       "IncomeMale": 33605.13,
+      "TotalMale": 232250,
+      "TotalFemale": 775181,
       "IncomeFemale": 28550.85
     },
     "Other": {
       "IncomeMale": 32238.09,
+      "TotalMale": 52744,
+      "TotalFemale": 177997,
       "IncomeFemale": 27578.25
     }
   },
   "BUS": {
     "Pasific Islander": {
       "IncomeMale": 76228.97,
+      "TotalMale": 3584,
+      "TotalFemale": 3860,
       "IncomeFemale": 34108.04
     },
     "IncomeMale": 63593.02,
     "Native Hawaiian": {
       "IncomeMale": 55042.16,
+      "TotalMale": 2549,
+      "TotalFemale": 3203,
       "IncomeFemale": 34507.02
     },
     "White": {
       "IncomeMale": 65013.53,
+      "TotalMale": 1565039,
+      "TotalFemale": 1814755,
       "IncomeFemale": 48700.24
     },
+    "TotalMale": 1891468,
     "American Indian": {
       "IncomeMale": 46136.71,
+      "TotalMale": 21558,
+      "TotalFemale": 26966,
       "IncomeFemale": 41294.62
     },
+    "TotalFemale": 2296771,
     "Asian": {
       "IncomeMale": 68390.68,
+      "TotalMale": 129805,
+      "TotalFemale": 162679,
       "IncomeFemale": 52548.01
     },
     "IncomeFemale": 48325.22,
     "African American": {
       "IncomeMale": 49720.96,
+      "TotalMale": 167429,
+      "TotalFemale": 286539,
       "IncomeFemale": 44698.44
     },
     "Other": {
       "IncomeMale": 45030.09,
+      "TotalMale": 44596,
+      "TotalFemale": 56567,
       "IncomeFemale": 43306.35
     }
   },
   "CMM": {
     "Pasific Islander": {
       "IncomeMale": 67238.94,
+      "TotalMale": 7364,
+      "TotalFemale": 2792,
       "IncomeFemale": 56680.94
     },
     "IncomeMale": 75181.56,
     "Native Hawaiian": {
       "IncomeMale": 60904.46,
+      "TotalMale": 3442,
+      "TotalFemale": 1887,
       "IncomeFemale": 44395.18
     },
     "White": {
       "IncomeMale": 74143.21,
+      "TotalMale": 2457189,
+      "TotalFemale": 833797,
       "IncomeFemale": 57302.58
     },
+    "TotalMale": 3358638,
     "American Indian": {
       "IncomeMale": 58524.66,
+      "TotalMale": 27984,
+      "TotalFemale": 12161,
       "IncomeFemale": 44588.6
     },
+    "TotalFemale": 1247969,
     "Asian": {
       "IncomeMale": 86785.66,
+      "TotalMale": 637679,
+      "TotalFemale": 263626,
       "IncomeFemale": 68734.34
     },
     "IncomeFemale": 59324.43,
     "African American": {
       "IncomeMale": 58739.93,
+      "TotalMale": 242176,
+      "TotalFemale": 139812,
       "IncomeFemale": 55419.35
     },
     "Other": {
       "IncomeMale": 59813.09,
+      "TotalMale": 65552,
+      "TotalFemale": 23572,
       "IncomeFemale": 49071.74
     }
   },
   "CON": {
     "Pasific Islander": {
       "IncomeMale": 24294.56,
+      "TotalMale": 15240,
+      "TotalFemale": 318,
       "IncomeFemale": 2224.41
     },
     "IncomeMale": 28878.56,
     "Native Hawaiian": {
       "IncomeMale": 35514.11,
+      "TotalMale": 18629,
+      "TotalFemale": 287,
       "IncomeFemale": 27544.97
     },
     "White": {
       "IncomeMale": 29863.18,
+      "TotalMale": 7305269,
+      "TotalFemale": 239667,
       "IncomeFemale": 20561.99
     },
+    "TotalMale": 9037713,
     "American Indian": {
       "IncomeMale": 23060.87,
+      "TotalMale": 168080,
+      "TotalFemale": 7370,
       "IncomeFemale": 13102.91
     },
+    "TotalFemale": 302932,
     "Asian": {
       "IncomeMale": 29995.13,
+      "TotalMale": 150896,
+      "TotalFemale": 9751,
       "IncomeFemale": 30910.06
     },
     "IncomeFemale": 20513.57,
     "African American": {
       "IncomeMale": 23534.34,
+      "TotalMale": 718759,
+      "TotalFemale": 30431,
       "IncomeFemale": 20182.31
     },
     "Other": {
       "IncomeMale": 25108.08,
+      "TotalMale": 834833,
+      "TotalFemale": 22375,
       "IncomeFemale": 16313.02
     }
   },
   "CMS": {
     "Pasific Islander": {
       "IncomeMale": 34056.05,
+      "TotalMale": 1156,
+      "TotalFemale": 3127,
       "IncomeFemale": 37821.74
     },
     "IncomeMale": 36612.64,
     "Native Hawaiian": {
       "IncomeMale": 36760.39,
+      "TotalMale": 859,
+      "TotalFemale": 3088,
       "IncomeFemale": 34981.95
     },
     "White": {
       "IncomeMale": 37453.13,
+      "TotalMale": 813685,
+      "TotalFemale": 1428385,
       "IncomeFemale": 32761.09
     },
+    "TotalMale": 1080668,
     "American Indian": {
       "IncomeMale": 32635.76,
+      "TotalMale": 16000,
+      "TotalFemale": 36488,
       "IncomeFemale": 30395.28
     },
+    "TotalFemale": 1918534,
     "Asian": {
       "IncomeMale": 32303.73,
+      "TotalMale": 49080,
+      "TotalFemale": 71960,
       "IncomeFemale": 33313.8
     },
     "IncomeFemale": 33156.53,
     "African American": {
       "IncomeMale": 34687.26,
+      "TotalMale": 186219,
+      "TotalFemale": 365954,
       "IncomeFemale": 34718.3
     },
     "Other": {
       "IncomeMale": 34003.4,
+      "TotalMale": 37086,
+      "TotalFemale": 61146,
       "IncomeFemale": 34525.79
     }
   },
   "FIN": {
     "Pasific Islander": {
       "IncomeMale": 76875.12,
+      "TotalMale": 1924,
+      "TotalFemale": 3873,
       "IncomeFemale": 32007.06
     },
     "IncomeMale": 80317.02,
     "Native Hawaiian": {
       "IncomeMale": 76231.33,
+      "TotalMale": 1997,
+      "TotalFemale": 3178,
       "IncomeFemale": 46460.99
     },
     "White": {
       "IncomeMale": 83255.28,
+      "TotalMale": 1529470,
+      "TotalFemale": 1784082,
       "IncomeFemale": 50401.46
     },
+    "TotalMale": 1842859,
     "American Indian": {
       "IncomeMale": 59065.96,
+      "TotalMale": 13577,
+      "TotalFemale": 29729,
       "IncomeFemale": 39875.25
     },
+    "TotalFemale": 2334254,
     "Asian": {
       "IncomeMale": 76177.18,
+      "TotalMale": 169417,
+      "TotalFemale": 259364,
       "IncomeFemale": 55219.18
     },
     "IncomeFemale": 50296.32,
     "African American": {
       "IncomeMale": 57101.36,
+      "TotalMale": 132223,
+      "TotalFemale": 255288,
       "IncomeFemale": 47059.7
     },
     "Other": {
       "IncomeMale": 52356.8,
+      "TotalMale": 27558,
+      "TotalFemale": 49537,
       "IncomeFemale": 39592.7
     }
   },
   "MED": {
     "Pasific Islander": {
       "IncomeMale": 77957.47,
+      "TotalMale": 4947,
+      "TotalFemale": 15869,
       "IncomeFemale": 73061.76
     },
     "IncomeMale": 101243.1,
     "Native Hawaiian": {
       "IncomeMale": 83115.17,
+      "TotalMale": 2943,
+      "TotalFemale": 9032,
       "IncomeFemale": 54148.99
     },
     "White": {
       "IncomeMale": 102667,
+      "TotalMale": 1869639,
+      "TotalFemale": 5796935,
       "IncomeFemale": 48968.74
     },
+    "TotalMale": 2439870,
     "American Indian": {
       "IncomeMale": 59464.25,
+      "TotalMale": 26374,
+      "TotalFemale": 79645,
       "IncomeFemale": 41473.25
     },
+    "TotalFemale": 7431769,
     "Asian": {
       "IncomeMale": 120663.7,
+      "TotalMale": 327855,
+      "TotalFemale": 640518,
       "IncomeFemale": 71669.84
     },
     "IncomeFemale": 50520.46,
     "African American": {
       "IncomeMale": 66642.74,
+      "TotalMale": 222269,
+      "TotalFemale": 901167,
       "IncomeFemale": 46593.44
     },
     "Other": {
       "IncomeMale": 73061.96,
+      "TotalMale": 48493,
+      "TotalFemale": 135140,
       "IncomeFemale": 46673.49
     }
   },
   "LGL": {
     "Pasific Islander": {
       "IncomeMale": 71214.02,
+      "TotalMale": 870,
+      "TotalFemale": 1963,
       "IncomeFemale": 19141.42
     },
     "IncomeMale": 86591.87,
     "Native Hawaiian": {
       "IncomeMale": 31681.97,
+      "TotalMale": 1274,
+      "TotalFemale": 2964,
       "IncomeFemale": 45936.22
     },
     "White": {
       "IncomeMale": 90226.03,
+      "TotalMale": 1530318,
+      "TotalFemale": 1571243,
       "IncomeFemale": 53900.83
     },
+    "TotalMale": 1798523,
     "American Indian": {
       "IncomeMale": 50086.22,
+      "TotalMale": 13733,
+      "TotalFemale": 23521,
       "IncomeFemale": 42010.2
     },
+    "TotalFemale": 1912263,
     "Asian": {
       "IncomeMale": 63388.46,
+      "TotalMale": 162907,
+      "TotalFemale": 164726,
       "IncomeFemale": 50095.18
     },
     "IncomeFemale": 53141.95,
     "African American": {
       "IncomeMale": 71646.1,
+      "TotalMale": 100785,
+      "TotalFemale": 156242,
       "IncomeFemale": 52286.18
     },
     "Other": {
       "IncomeMale": 56853.04,
+      "TotalMale": 24279,
+      "TotalFemale": 44665,
       "IncomeFemale": 41355.15
     }
   },
   "MIL": {
     "Pasific Islander": {
       "IncomeMale": 34396.07,
+      "TotalMale": 3386,
+      "TotalFemale": 795,
       "IncomeFemale": 20122.49
     },
     "IncomeMale": 39006.13,
     "Native Hawaiian": {
       "IncomeMale": 28110.79,
+      "TotalMale": 1171,
+      "TotalFemale": 316,
       "IncomeFemale": 26256.63
     },
     "White": {
       "IncomeMale": 39976.4,
+      "TotalMale": 417386,
+      "TotalFemale": 48487,
       "IncomeFemale": 30228.42
     },
+    "TotalMale": 518155,
     "American Indian": {
       "IncomeMale": 36001.21,
+      "TotalMale": 11550,
+      "TotalFemale": 2398,
       "IncomeFemale": 27739.07
     },
+    "TotalFemale": 70528,
     "Asian": {
       "IncomeMale": 34143.25,
+      "TotalMale": 22948,
+      "TotalFemale": 5184,
       "IncomeFemale": 32402.66
     },
     "IncomeFemale": 31224.31,
     "African American": {
       "IncomeMale": 34419.93,
+      "TotalMale": 67795,
+      "TotalFemale": 14945,
       "IncomeFemale": 37775.18
     },
     "Other": {
       "IncomeMale": 34334.47,
+      "TotalMale": 15929,
+      "TotalFemale": 2624,
       "IncomeFemale": 30365.75
     }
   },
   "SCI": {
     "Pasific Islander": {
       "IncomeMale": 112807.3,
+      "TotalMale": 971,
+      "TotalFemale": 994,
       "IncomeFemale": 60734.24
     },
     "IncomeMale": 62022.45,
     "Native Hawaiian": {
       "IncomeMale": 55221.09,
+      "TotalMale": 1263,
+      "TotalFemale": 759,
       "IncomeFemale": 52974.4
     },
     "White": {
       "IncomeMale": 62385.72,
+      "TotalMale": 647911,
+      "TotalFemale": 542492,
       "IncomeFemale": 45720.78
     },
+    "TotalMale": 823445,
     "American Indian": {
       "IncomeMale": 54266.92,
+      "TotalMale": 7604,
+      "TotalFemale": 9490,
       "IncomeFemale": 43992
     },
+    "TotalFemale": 707695,
     "Asian": {
       "IncomeMale": 65599.82,
+      "TotalMale": 115424,
+      "TotalFemale": 113272,
       "IncomeFemale": 53696.81
     },
     "IncomeFemale": 46767.43,
     "African American": {
       "IncomeMale": 49259.15,
+      "TotalMale": 52753,
+      "TotalFemale": 48957,
       "IncomeFemale": 42795.29
     },
     "Other": {
       "IncomeMale": 53513.87,
+      "TotalMale": 16488,
+      "TotalFemale": 13858,
       "IncomeFemale": 38285.74
     }
   },
   "MGR": {
     "Pasific Islander": {
       "IncomeMale": 62429.15,
+      "TotalMale": 14295,
+      "TotalFemale": 12035,
       "IncomeFemale": 58730.65
     },
     "IncomeMale": 82322.28,
     "Native Hawaiian": {
       "IncomeMale": 60801.01,
+      "TotalMale": 12182,
+      "TotalFemale": 11534,
       "IncomeFemale": 40524.68
     },
     "White": {
       "IncomeMale": 84102.15,
+      "TotalMale": 8880623,
+      "TotalFemale": 5643022,
       "IncomeFemale": 57979.85
     },
+    "TotalMale": 10355941,
     "American Indian": {
       "IncomeMale": 57972.91,
+      "TotalMale": 107656,
+      "TotalFemale": 88797,
       "IncomeFemale": 43925.58
     },
+    "TotalFemale": 6954137,
     "Asian": {
       "IncomeMale": 92087.94,
+      "TotalMale": 637376,
+      "TotalFemale": 445544,
       "IncomeFemale": 67473.56
     },
     "IncomeFemale": 57421.04,
     "African American": {
       "IncomeMale": 59190.68,
+      "TotalMale": 645122,
+      "TotalFemale": 731510,
       "IncomeFemale": 52202
     },
     "Other": {
       "IncomeMale": 52134.2,
+      "TotalMale": 246226,
+      "TotalFemale": 177167,
       "IncomeFemale": 41995.94
     }
   },
   "EAT": {
     "Pasific Islander": {
       "IncomeMale": 22374.48,
+      "TotalMale": 16396,
+      "TotalFemale": 16335,
       "IncomeFemale": 14864.41
     },
     "IncomeMale": 14886.23,
     "Native Hawaiian": {
       "IncomeMale": 15122.78,
+      "TotalMale": 9789,
+      "TotalFemale": 15544,
       "IncomeFemale": 12489.79
     },
     "White": {
       "IncomeMale": 14716.21,
+      "TotalMale": 3529429,
+      "TotalFemale": 4922121,
       "IncomeFemale": 10849.58
     },
+    "TotalMale": 5179007,
     "American Indian": {
       "IncomeMale": 11342.52,
+      "TotalMale": 105847,
+      "TotalFemale": 129113,
       "IncomeFemale": 10865.63
     },
+    "TotalFemale": 6457685,
     "Asian": {
       "IncomeMale": 17176.09,
+      "TotalMale": 383300,
+      "TotalFemale": 364263,
       "IncomeFemale": 12886
     },
     "IncomeFemale": 11163.18,
     "African American": {
       "IncomeMale": 12113.18,
+      "TotalMale": 856538,
+      "TotalFemale": 835449,
       "IncomeFemale": 11495.19
     },
     "Other": {
       "IncomeMale": 18406.37,
+      "TotalMale": 478024,
+      "TotalFemale": 403629,
       "IncomeFemale": 12084.98
     }
   },
   "SAL": {
     "Pasific Islander": {
       "IncomeMale": 27677,
+      "TotalMale": 17076,
+      "TotalFemale": 28279,
       "IncomeFemale": 16611
     },
     "IncomeMale": 45964.92,
     "Native Hawaiian": {
       "IncomeMale": 30260.88,
+      "TotalMale": 15121,
+      "TotalFemale": 19389,
       "IncomeFemale": 17472.74
     },
     "White": {
       "IncomeMale": 49393.1,
+      "TotalMale": 7783264,
+      "TotalFemale": 8243830,
       "IncomeFemale": 22179.72
     },
+    "TotalMale": 9501614,
     "American Indian": {
       "IncomeMale": 28244.57,
+      "TotalMale": 102771,
+      "TotalFemale": 166419,
       "IncomeFemale": 16129.75
     },
+    "TotalFemale": 10834391,
     "Asian": {
       "IncomeMale": 37712.31,
+      "TotalMale": 587201,
+      "TotalFemale": 620687,
       "IncomeFemale": 22717.96
     },
     "IncomeFemale": 20986.07,
     "African American": {
       "IncomeMale": 26367.27,
+      "TotalMale": 871138,
+      "TotalFemale": 1531152,
       "IncomeFemale": 15464.9
     },
     "Other": {
       "IncomeMale": 27789.09,
+      "TotalMale": 359218,
+      "TotalFemale": 525806,
       "IncomeFemale": 15658.69
     }
   },
   "ENG": {
     "Pasific Islander": {
       "IncomeMale": 67436.87,
+      "TotalMale": 4139,
+      "TotalFemale": 865,
       "IncomeFemale": 45197.97
     },
     "IncomeMale": 71672.58,
     "Native Hawaiian": {
       "IncomeMale": 95288.35,
+      "TotalMale": 1955,
+      "TotalFemale": 962,
       "IncomeFemale": 62212.62
     },
     "White": {
       "IncomeMale": 71133.98,
+      "TotalMale": 2101076,
+      "TotalFemale": 364532,
       "IncomeFemale": 54588.97
     },
+    "TotalMale": 2582254,
     "American Indian": {
       "IncomeMale": 54552.5,
+      "TotalMale": 23788,
+      "TotalFemale": 5870,
       "IncomeFemale": 49742.86
     },
+    "TotalFemale": 489277,
     "Asian": {
       "IncomeMale": 81821.06,
+      "TotalMale": 310732,
+      "TotalFemale": 81842,
       "IncomeFemale": 68038.12
     },
     "IncomeFemale": 56301.11,
     "African American": {
       "IncomeMale": 60856.01,
+      "TotalMale": 135353,
+      "TotalFemale": 38103,
       "IncomeFemale": 50345.29
     },
     "Other": {
       "IncomeMale": 61684.78,
+      "TotalMale": 54599,
+      "TotalFemale": 10962,
       "IncomeFemale": 50324.17
     }
   }

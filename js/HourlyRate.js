@@ -31,7 +31,6 @@ var svg = MainSvg.append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 var initGraph = function(data, title) {
-    console.log(data);
     x.domain(data.map(function (d) {
         return d.year;
     }));
@@ -137,7 +136,6 @@ var initGraph = function(data, title) {
 
 var updateGraph = function(data, title)
 {
-    console.log(data);
     x.domain(data.map(function (d) {
         return d.year;
     }));
@@ -211,7 +209,7 @@ var tooltipBarDiv;
 var toolTipOver = function(d, bar){
     d3.select(bar).attr("stroke", '#000')
         .attr("stroke-width", 1.2);
-    var color = 'rgba(150,150,150,0.8)';
+    var color = 'rgba(220,220,220,0.9)';
 
     // Clean up lost tooltips
     d3.select('body').selectAll('div.barToolTip').remove();
@@ -440,7 +438,6 @@ d3.json("../Data/HourlyRatePerState.json", function(json){
     initBarChart("00");
     initScale();
 
-    console.log(largestDifference);
 });
 
 MainSvg.append("text")
@@ -494,7 +491,6 @@ d3.json("../assets/500k.json", function(json) {
             mouseoutState(d, this);
         })
         .on('click', function(d){
-            console.log("click");
             updateBarChart(d.properties.STATE, d.properties.NAME);
         });
 
@@ -512,13 +508,11 @@ var processStates = function(){
 }
 
 var getStateColour = function(stateData){
-   // console.log(stateData.properties.STATE);
 
     var femaleRate = hourlyRates[stateData.properties.STATE].HourlyRateFemale;
     var maleRate = hourlyRates[stateData.properties.STATE].HourlyRateMale;
     stateData.HourlyRateFemale = femaleRate;
     stateData.HourlyRateMale = maleRate;
-    //console.log(femaleRate + "  " + maleRate + "  " + stateData.properties.STATE);
 
     if(femaleRate >= maleRate){
         return 'rgba(220,150,100,'+(femaleRate-maleRate)/largestDifference+')';
@@ -534,7 +528,6 @@ var bodyNode = d3.select('body').node();
 var  mousoverState = function(stateData, path){
     d3.select(path.parentNode.appendChild(path)).attr("stroke", '#000')
                     .attr("stroke-width", 1.2);
-    console.log(stateData.properties.NAME + "  " + stateData.properties.STATE + " " + stateData.HourlyRateFemale + " " + stateData.HourlyRateMale);
 
     var femaleRate = hourlyRates[stateData.properties.STATE].HourlyRateFemale;
     var maleRate = hourlyRates[stateData.properties.STATE].HourlyRateMale;

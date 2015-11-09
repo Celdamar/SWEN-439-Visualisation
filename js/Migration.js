@@ -31,7 +31,6 @@ var svg = MainSvg.append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 var initGraph = function(data, title) {
-    console.log(data);
     x.domain(data.map(function (d) {
         return d.year;
     }));
@@ -151,7 +150,6 @@ var initGraph = function(data, title) {
 
 var updateGraph = function(data, title)
 {
-    console.log(data);
     x.domain(data.map(function (d) {
         return d.year;
     }));
@@ -480,7 +478,6 @@ d3.json("../Data/yearOfEntryWAOB.json", function(json){
         }
     };
 
-    console.log(firstYear + "  " +  lastYear);
 
     //initBarChart("00");
     //initScale();
@@ -571,7 +568,6 @@ d3.json("../assets/world.geo.json", function(json) {
         var backgroundGradient = "linkBackground-gradient-"+continent;
 
         var lineDetails = WAOBLines[continent];
-        console.log(lineDetails);
         MainSvg.append("radialGradient")
             .attr("id", backgroundGradient)
             .attr("gradientUnits", "userSpaceOnUse")
@@ -747,7 +743,6 @@ var updateLines = function(yearData, total, delay){
 }
 
 var playClicked = function(){
-    console.log("play clicked");
 
     var year = parseInt(currentYear);
     var delay = 0;
@@ -784,7 +779,6 @@ var updateToolTip = function(){
     if(tooltipDiv == null){return;}
     var continent = tooltipDiv.attr("continent");
     var number = yearWAOB[currentYear][continent];
-    console.log(number);
     if(isNaN(number)){ number = 0}
     var tooltipText = "<b>" + numberToContinent(continent) + ": " + number + "</b>";
     tooltipDiv.html(tooltipText);
@@ -792,7 +786,6 @@ var updateToolTip = function(){
 
 
 var  mousoverState = function(continent){
-    console.log(continent);
 
     // Clean up lost tooltips
     d3.select('body').selectAll('div.tooltipMap').remove();
@@ -807,7 +800,7 @@ var  mousoverState = function(continent){
         .style('border', '1px solid #000')
         .style('margin', '10px')
         .style('height', '45px')
-        .style('width', '180px')
+        .style('width', '190px')
         .style('-webkit-border-radius', '10px')
         .style('-moz-border-radius', '10px')
         .style('border-radius','10px')
@@ -817,14 +810,27 @@ var  mousoverState = function(continent){
     // Add text using the accessor function
 
     var number = yearWAOB[currentYear][continent];
-    console.log(number);
     if(isNaN(number)){ number = 0}
-    var tooltipText = "<b>" + numberToContinent(continent) + ": " + number + "</b>";
+    var tooltipText = "<b>" + numberToContinent(continent) + ": " + fNum(number) + "</b>";
     tooltipDiv.html(tooltipText);
     // Crop text arbitrarily
     //tooltipDiv.style('width', function(d, i){return (tooltipText.length > 80) ? '300px' : null;})
     //    .html(tooltipText);
 };
+
+
+var fNum = function(nStr)
+{
+    nStr += '';
+    x = nStr.split('.');
+    x1 = x[0];
+    x2 = x.length > 1 ? '.' + x[1] : '';
+    var rgx = /(\d+)(\d{3})/;
+    while (rgx.test(x1)) {
+        x1 = x1.replace(rgx, '$1' + ',' + '$2');
+    }
+    return x1 + x2;
+}
 
 var mousemoveState = function(stateData, path){
 

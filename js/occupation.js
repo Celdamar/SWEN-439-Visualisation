@@ -22,7 +22,6 @@ d3.json("../Data/IncomeOccupation.json", function(json){
     largestDifference = Math.ceil(largestDifference);
     processOccupations();
     processOccupations2();
-    console.log(largestDifference);
 });
 
 var processOccupations = function() {
@@ -39,7 +38,7 @@ var processOccupations = function() {
 
     var raceCount = 0;
     for (var race in occupationJson["00"]) {
-        if (race != "IncomeMale" && race != "IncomeFemale") {
+        if (race != "IncomeMale" && race != "IncomeFemale" && race != "TotalMale" && race != "TotalFemale") {
             races[raceCount++] = race;
 
         }
@@ -53,8 +52,6 @@ var processOccupations = function() {
             dataKeys[dk++] = {"race" : races[r], "occupation" : occupations[o]};
         }
     }
-    console.log(races);
-    console.log(occupations);
 
     gridSize = width/(occupations.length+1);
 
@@ -150,17 +147,24 @@ var  mousoverState = function(occData, path) {
         .attr("stroke-width", 1.2);
 
     var occupationData = occupationJson[occData.occupation];
-    if (occData.occupation == "ALL") {
+    if (occData.occupation == "ALL" ) {
         occupationData = occupationJson["00"];
     }
     var femaleRate;
     var maleRate;
+    var females;
+    var males;
+
     if (occData.race == "All") {
         femaleRate = occupationData.IncomeFemale;
         maleRate= occupationData.IncomeMale;
+        females = occupationData.TotalFemale;
+        males = occupationData.TotalMale;
     } else {
         femaleRate = occupationData[occData.race].IncomeFemale;
         maleRate = occupationData[occData.race].IncomeMale;
+        females = occupationData[occData.race].TotalFemale;
+        males = occupationData[occData.race].TotalMale;
     }
 
     var color = 'rgba(200,150,68,0.8)';
@@ -178,7 +182,7 @@ var  mousoverState = function(occData, path) {
         .style('background-color', color)
         .style('border', '1px solid #000')
         .style('margin', '10px')
-        .style('height', '70px')
+        .style('height', '150px')
         .style('width', '150px')
         .style('-webkit-border-radius', '10px')
         .style('-moz-border-radius', '10px')
@@ -189,7 +193,7 @@ var  mousoverState = function(occData, path) {
     // Add text using the accessor function
 
 
-    var tooltipText = "Female: " + femaleRate + "<br/> Male: " + maleRate + "";
+    var tooltipText = "<b>Income</b> <br/>Female: " + fNum(femaleRate) + "<br/>Male: " + fNum(maleRate) + "<br/><b>Number</b><br/>Females: " + fNum(females) + "<br/>Males: " + fNum(males);
     tooltipDiv.html(tooltipText);
 };
 
@@ -281,7 +285,7 @@ var initScale = function(){
         .attr("x", 0)
         .attr("y", height )
         .attr("text-anchor", "end")
-        .text("$"+largestDifference + "");
+        .text("$"+fNum(largestDifference) + "");
 
     svg.append("text")
         .attr("x", 300)
@@ -293,7 +297,7 @@ var initScale = function(){
         .attr("x", 600)
         .attr("y", height )
         .attr("text-anchor", "start")
-        .text("-$" +largestDifference+ "");
+        .text("-$" +fNum(largestDifference)+ "");
 
     svg.append("text")
         .attr("x", 300)
@@ -343,7 +347,6 @@ var processOccupations2 = function() {
         averageIncome[occupation] = avg(json[occupation].IncomeFemale, json[occupation].IncomeMale);
     };
     largestDifference2 = Math.ceil(largestDifference2);
-    console.log(largestDifference2+ "   " + averageIncome);
 
     var dk = 0;
     for(var o in occupations){
@@ -353,7 +356,6 @@ var processOccupations2 = function() {
             }
         }
     }
-    console.log(dataKeys2);
 
 
 
@@ -484,7 +486,6 @@ var getDataColour2 = function(occupation, race){
     var femaleIncome = raceData.IncomeFemale;
     var maleIncome = raceData.IncomeMale;
 
-    console.log(femaleIncome+ " " + maleIncome);
     if(femaleIncome == null || maleIncome == null){
         return "rgba(150,150,150,.99)";
     }
@@ -525,7 +526,7 @@ var initScale2 = function(){
         .attr("x", 0)
         .attr("y", height2 )
         .attr("text-anchor", "end")
-        .text("$"+largestDifference2 + "");
+        .text("$"+fNum(largestDifference2) + "");
 
     svg2.append("text")
         .attr("x", 300)
@@ -537,7 +538,7 @@ var initScale2 = function(){
         .attr("x", 600)
         .attr("y", height2 )
         .attr("text-anchor", "start")
-        .text("-$" +largestDifference2+ "");
+        .text("-$" +fNum(largestDifference2)+ "");
 
     svg2.append("text")
         .attr("x", 300)
@@ -553,17 +554,25 @@ var  mousoverState2 = function(occData, path) {
         .attr("stroke-width", 1.2);
 
     var occupationData = occupationJson[occData.occupation];
-    if (occData.occupation == "ALL") {
+    if (occData.occupation == "ALL"  || occData.occupation == "Average") {
         occupationData = occupationJson["00"];
     }
     var femaleRate;
     var maleRate;
-    if (occData.race == "All") {
+    var females;
+    var males;
+
+
+    if (occData.race == "All"  || occData.race == "Average") {
         femaleRate = occupationData.IncomeFemale;
         maleRate= occupationData.IncomeMale;
+        females = occupationData.TotalFemale;
+        males = occupationData.TotalMale;
     } else {
         femaleRate = occupationData[occData.race].IncomeFemale;
         maleRate = occupationData[occData.race].IncomeMale;
+        females = occupationData[occData.race].TotalFemale;
+        males = occupationData[occData.race].TotalMale;
     }
 
     var color = 'rgba(200,150,68,0.8)';
@@ -581,7 +590,7 @@ var  mousoverState2 = function(occData, path) {
         .style('background-color', color)
         .style('border', '1px solid #000')
         .style('margin', '10px')
-        .style('height', '50px')
+        .style('height', '65px')
         .style('width', '150px')
         .style('-webkit-border-radius', '10px')
         .style('-moz-border-radius', '10px')
@@ -591,11 +600,23 @@ var  mousoverState2 = function(occData, path) {
         .style('z-index', 1001);
     // Add text using the accessor function
 
-
-    var tooltipText = "Average: " + avg(femaleRate,maleRate);
+    var number  = females + males;
+    var tooltipText = "<b>Income:</b> " + fNum(avg(femaleRate,maleRate)) + "<br/><b>Number:</b> " + fNum(number);
     tooltipDiv.html(tooltipText);
 };
 
+var fNum = function(nStr)
+{
+    nStr += '';
+    x = nStr.split('.');
+    x1 = x[0];
+    x2 = x.length > 1 ? '.' + x[1] : '';
+    var rgx = /(\d+)(\d{3})/;
+    while (rgx.test(x1)) {
+        x1 = x1.replace(rgx, '$1' + ',' + '$2');
+    }
+    return x1 + x2;
+}
 
 var mousemoveState2 = function(stateData, path){
 
