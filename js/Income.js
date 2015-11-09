@@ -4,13 +4,13 @@ var MainSvg =  d3.select("#MainPanel").append("svg")
     .style('position','absolute');
 
 var margin = {top: 100, right: 80, bottom: 80, left: 1250},
-    chartWidth = 600;
+    chartWidth = 550;
 chartHeight = 450;
 
 var x = d3.scale.ordinal()
     .rangeRoundBands([0, chartHeight-50], 0);
 
-var y0 = d3.scale.linear().domain([0, 25]).range([chartWidth/2, 0]),
+var y0 = d3.scale.linear().domain([0, 25]).range([chartHeight, 0]),
     y1 = d3.scale.linear().domain([25, 0]).range([chartWidth/2, 0]);
 
 var xAxis = d3.svg.axis()
@@ -18,7 +18,7 @@ var xAxis = d3.svg.axis()
     .orient("bottom");
 
 // create left yAxis
-var yAxisLeft = d3.svg.axis().scale(y0).ticks(5).orient("bottom");
+var yAxisLeft = d3.svg.axis().scale(y0).ticks(5).orient("left");
 // create right yAxis
 var yAxisRight = d3.svg.axis().scale(y1).ticks(5).orient("bottom");
 
@@ -36,10 +36,10 @@ var initGraph = function(data, title) {
         return d.year;
     }));
     y0.domain([0, d3.max(data, function (d) {
-        return Math.max(d.HourlyRateFemale, d.HourlyRateMale);
+        return Math.max(d.IncomeFemale, d.IncomeMale);
     })]);
     y1.domain([ d3.max(data, function (d) {
-        return Math.max(d.HourlyRateFemale, d.HourlyRateMale);
+        return Math.max(d.IncomeFemale, d.IncomeMale);
     }), 0]);
 
     svg.append("text")
@@ -54,25 +54,26 @@ var initGraph = function(data, title) {
     svg.append("g")
         .attr("class", "y axis axisLeft")
         .attr("shape-rendering", "crispEdges")
-        .attr("transform", "translate(0," + chartHeight + ")")
+        .attr("transform", "translate(0,0)")
         .call(yAxisLeft)
         .append("text")
-        .attr("y", 6)
+        .attr("y", -30)
+        .attr("x", -10)
         .attr("dy", "2em")
-        .style("text-anchor", "middle")
-        .text("Male $/Hour");
-
-    svg.append("g")
-        .attr("class", "y axis axisRight")
-        .attr("transform", "translate(" + (chartWidth) / 2 + "," + chartHeight + ")")
-        .call(yAxisRight)
-        .append("text")
-        .attr("y", 6)
-        .attr("x", chartWidth / 2)
-        .attr("dy", "2em")
-        .attr("dx", "2em")
         .style("text-anchor", "end")
-        .text("Female $/Hour");
+        .text("Income $");
+
+    //svg.append("g")
+    //    .attr("class", "y axis axisRight")
+    //    .attr("transform", "translate(" + (chartWidth) / 2 + "," + chartHeight + ")")
+    //    .call(yAxisRight)
+    //    .append("text")
+    //    .attr("y", 6)
+    //    .attr("x", chartWidth / 2)
+    //    .attr("dy", "2em")
+    //    .attr("dx", "2em")
+    //    .style("text-anchor", "end")
+    //    .text("Female $");
 
 
     bars = svg.selectAll(".bar").data(data).enter();
@@ -80,56 +81,69 @@ var initGraph = function(data, title) {
     bars.append("rect")
         .attr("class", "bar1")
         .attr("y", function (d, i) {
-            return i * (chartHeight ) / 8
+            //return i * (chartHeight ) / 8;
+            return y0(d.IncomeMale);
         })
-        .attr("height", chartHeight / 9)
-        .attr("x", function (d) {
-            return y0(d.HourlyRateMale);
+        .attr("height", function(d){
+            //chartHeight / 9;
+            return chartHeight - y0(d.IncomeMale);
+        })
+        .attr("x", function (d, i) {
+            //return y0(d.IncomeMale);
+            return i * (chartWidth ) / 8 + 10;
         })
         .attr("width", function (d, i, j) {
-            return chartWidth / 2 - y0(d.HourlyRateMale);
+            //return chartWidth / 2 - y0(d.IncomeMale);
+            return (chartWidth ) / 18;
         })
         .on('mouseover', function (d) {
-            toolTipOver(d.HourlyRateMale, this);
+            toolTipOver(d.IncomeMale, this);
         })
         .on('mousemove', function (d) {
-            toolTipMove(d.HourlyRateMale, this);
+            toolTipMove(d.IncomeMale, this);
         })
         .on('mouseout', function (d) {
-            toolTipOut(d.HourlyRateMale, this);
+            toolTipOut(d.IncomeMale, this);
         });
 
     bars.append("rect")
         .attr("class", "bar2")
         .attr("y", function (d, i) {
-            return i * (chartHeight ) / 8;
+            //return i * (chartHeight ) / 8;
+            return  y0(d.IncomeFemale);
         })
-        .attr("height", chartHeight / 9)
-        .attr("x", function (d) {
-            return chartWidth / 2;//y0(d.HourlyRateFemale);
+        .attr("height", function(d){
+            //chartHeight / 9;
+            return chartHeight - y0(d.IncomeFemale);
+        })
+        .attr("x", function (d, i) {
+            //return y0(d.IncomeMale);
+            return i * (chartWidth ) / 8 + chartWidth/18 + 10;
         })
         .attr("width", function (d, i, j) {
-            return chartWidth / 2 - y0(d.HourlyRateFemale);
+            //return chartWidth / 2 - y0(d.IncomeMale);
+            return (chartWidth ) / 18;
         })
         .on('mouseover', function (d) {
-            toolTipOver(d.HourlyRateFemale, this);
+            toolTipOver(d.IncomeFemale, this);
         })
         .on('mousemove', function (d) {
-            toolTipMove(d.HourlyRateFemale, this);
+            toolTipMove(d.IncomeFemale, this);
         })
         .on('mouseout', function (d) {
-            toolTipOut(d.HourlyRateFemale, this);
+            toolTipOut(d.IncomeFemale, this);
         });
 
-    var races = [ "American Indian","Asian","African American","Native Hawaiian","Pasific Islander","Other", "White", "Average"];
+    var races = [ "American\n Indian","Asian","African American","Native Hawaiian","Pasific Islander","Other", "White", "Average"];
     svg.selectAll(".barTitle").data(races).enter()
         .append("text")
-        .attr("x", chartWidth/2)
-        .attr("text-anchor", "middle")
-        .attr("y", function(d, i){
-            return i * chartHeight/8 + chartHeight/13;
+        .attr("x", -chartHeight -5)
+        .attr("text-anchor", "end")
+        .attr("y",  function(d, i){
+            return i * chartWidth/8 + chartWidth/13;
         })
-        .attr("font-size", "30px")
+        .attr("transform", "rotate(-90)")
+        .attr("font-size", "25px")
         .text(function(d){
             return d;
         });
@@ -142,10 +156,10 @@ var updateGraph = function(data, title)
         return d.year;
     }));
     y0.domain([0, d3.max(data, function (d) {
-        return Math.max(d.HourlyRateFemale, d.HourlyRateMale);
+        return Math.max(d.IncomeFemale, d.IncomeMale);
     })]);
     y1.domain([ d3.max(data, function (d) {
-        return Math.max(d.HourlyRateFemale, d.HourlyRateMale);
+        return Math.max(d.IncomeFemale, d.IncomeMale);
     }), 0]);
 
     //svg.append("g")
@@ -169,26 +183,40 @@ var updateGraph = function(data, title)
 
     var bars = svg.selectAll(".bar1").data(data);
 
-    bars.transition().duration(100).attr("y", function (d, i) {
-           return i * (chartHeight ) / 8
-       })
-       .attr("height", chartHeight / 9)
-       .attr("x", function (d) {
-           return y0(d.HourlyRateMale);
-       })
-       .attr("width", function (d, i, j) {
-           return chartWidth / 2 - y0(d.HourlyRateMale);
-       });
-    var bars2 = svg.selectAll(".bar2").data(data);
-    bars2.transition().duration(100).attr("y", function (d, i) {
-            return i * (chartHeight ) / 8
+    bars.transition().duration(100)
+        .attr("y", function (d, i) {
+            //return i * (chartHeight ) / 8;
+            return y0(d.IncomeMale);
         })
-        .attr("height", chartHeight / 9)
-        .attr("x", function (d) {
-            return chartWidth / 2;//y0(d.HourlyRateFemale);
+        .attr("height", function(d){
+            //chartHeight / 9;
+            return chartHeight - y0(d.IncomeMale);
+        })
+        .attr("x", function (d, i) {
+            //return y0(d.IncomeMale);
+            return i * (chartWidth ) / 8 + 10;
         })
         .attr("width", function (d, i, j) {
-            return chartWidth / 2 - y0(d.HourlyRateFemale);
+            //return chartWidth / 2 - y0(d.IncomeMale);
+            return (chartWidth ) / 18;
+        });
+    var bars2 = svg.selectAll(".bar2").data(data);
+    bars2.transition().duration(100)
+        .attr("y", function (d, i) {
+            //return i * (chartHeight ) / 8;
+            return  y0(d.IncomeFemale);
+        })
+        .attr("height", function(d){
+            //chartHeight / 9;
+            return chartHeight - y0(d.IncomeFemale);
+        })
+        .attr("x", function (d, i) {
+            //return y0(d.IncomeMale);
+            return i * (chartWidth ) / 8 + chartWidth/18 + 10;
+        })
+        .attr("width", function (d, i, j) {
+            //return chartWidth / 2 - y0(d.IncomeMale);
+            return (chartWidth ) / 18;
         });
 
 
@@ -202,7 +230,7 @@ var updateGraph = function(data, title)
             return chartWidth / 2;
         })
         .attr("width", function (d, i, j) {
-            return chartWidth / 2 - y1(d.HourlyRateFemale);
+            return chartWidth / 2 - y1(d.IncomeFemale);
         });*/
 };
 
@@ -235,7 +263,7 @@ var toolTipOver = function(d, bar){
     // Add text using the accessor function
 
 
-    var tooltipText = "<b>"+ d + "/Hour</b>";
+    var tooltipText = "<b>"+ d + "</b>";
     tooltipBarDiv.html(tooltipText);
 }
 var toolTipMove = function(stateData, path){
@@ -284,133 +312,133 @@ var summariseState = function(jsonData){
     var data = {};
     data.name = "American Indian";
     if(jsonData[data.name] != null) {
-        if(jsonData[data.name].HourlyRateMale != null) {
-            data.HourlyRateMale = jsonData[data.name].HourlyRateMale;
+        if(jsonData[data.name].IncomeMale != null) {
+            data.IncomeMale = jsonData[data.name].IncomeMale;
         }else {
-            data.HourlyRateMale = 0;
+            data.IncomeMale = 0;
         }
-        if(jsonData[data.name].HourlyRateFemale != null) {
-            data.HourlyRateFemale = jsonData[data.name].HourlyRateFemale;
+        if(jsonData[data.name].IncomeFemale != null) {
+            data.IncomeFemale = jsonData[data.name].IncomeFemale;
         }else {
-            data.HourlyRateFemale = 0;
+            data.IncomeFemale = 0;
         }
     } else {
-        data.HourlyRateFemale = 0; data.HourlyRateMale = 0;
+        data.IncomeFemale = 0; data.IncomeMale = 0;
     }
     dataArray[0] = data;
 
     var data = {};
     data.name =  "Asian";
     if(jsonData[data.name] != null) {
-        if(jsonData[data.name].HourlyRateMale != null) {
-            data.HourlyRateMale = jsonData[data.name].HourlyRateMale;
+        if(jsonData[data.name].IncomeMale != null) {
+            data.IncomeMale = jsonData[data.name].IncomeMale;
         }else {
-            data.HourlyRateMale = 0;
+            data.IncomeMale = 0;
         }
-        if(jsonData[data.name].HourlyRateFemale != null) {
-            data.HourlyRateFemale = jsonData[data.name].HourlyRateFemale;
+        if(jsonData[data.name].IncomeFemale != null) {
+            data.IncomeFemale = jsonData[data.name].IncomeFemale;
         }else {
-            data.HourlyRateFemale = 0;
+            data.IncomeFemale = 0;
         }
     } else {
-        data.HourlyRateFemale = 0; data.HourlyRateMale = 0;
+        data.IncomeFemale = 0; data.IncomeMale = 0;
     }
     dataArray[1] = data;
 
     var data = {};
     data.name = "African American";
     if(jsonData[data.name] != null) {
-        if(jsonData[data.name].HourlyRateMale != null) {
-            data.HourlyRateMale = jsonData[data.name].HourlyRateMale;
+        if(jsonData[data.name].IncomeMale != null) {
+            data.IncomeMale = jsonData[data.name].IncomeMale;
         }else {
-            data.HourlyRateMale = 0;
+            data.IncomeMale = 0;
         }
-        if(jsonData[data.name].HourlyRateFemale != null) {
-            data.HourlyRateFemale = jsonData[data.name].HourlyRateFemale;
+        if(jsonData[data.name].IncomeFemale != null) {
+            data.IncomeFemale = jsonData[data.name].IncomeFemale;
         }else {
-            data.HourlyRateFemale = 0;
+            data.IncomeFemale = 0;
         }
     } else {
-        data.HourlyRateFemale = 0; data.HourlyRateMale = 0;
+        data.IncomeFemale = 0; data.IncomeMale = 0;
     }
     dataArray[2] = data;
 
     var data = {};
     data.name =   "Native Hawaiian";
     if(jsonData[data.name] != null) {
-        if(jsonData[data.name].HourlyRateMale != null) {
-            data.HourlyRateMale = jsonData[data.name].HourlyRateMale;
+        if(jsonData[data.name].IncomeMale != null) {
+            data.IncomeMale = jsonData[data.name].IncomeMale;
         }else {
-            data.HourlyRateMale = 0;
+            data.IncomeMale = 0;
         }
-        if(jsonData[data.name].HourlyRateFemale != null) {
-            data.HourlyRateFemale = jsonData[data.name].HourlyRateFemale;
+        if(jsonData[data.name].IncomeFemale != null) {
+            data.IncomeFemale = jsonData[data.name].IncomeFemale;
         }else {
-            data.HourlyRateFemale = 0;
+            data.IncomeFemale = 0;
         }
     } else {
-        data.HourlyRateFemale = 0; data.HourlyRateMale = 0;
+        data.IncomeFemale = 0; data.IncomeMale = 0;
     }
     dataArray[3] = data;
 
     var data = {};
     data.name =  "Pasific Islander";
     if(jsonData[data.name] != null) {
-        if(jsonData[data.name].HourlyRateMale != null) {
-            data.HourlyRateMale = jsonData[data.name].HourlyRateMale;
+        if(jsonData[data.name].IncomeMale != null) {
+            data.IncomeMale = jsonData[data.name].IncomeMale;
         }else {
-            data.HourlyRateMale = 0;
+            data.IncomeMale = 0;
         }
-        if(jsonData[data.name].HourlyRateFemale != null) {
-            data.HourlyRateFemale = jsonData[data.name].HourlyRateFemale;
+        if(jsonData[data.name].IncomeFemale != null) {
+            data.IncomeFemale = jsonData[data.name].IncomeFemale;
         }else {
-            data.HourlyRateFemale = 0;
+            data.IncomeFemale = 0;
         }
     } else {
-        data.HourlyRateFemale = 0; data.HourlyRateMale = 0;
+        data.IncomeFemale = 0; data.IncomeMale = 0;
     }
     dataArray[4] = (data);
 
     var data = {};
     data.name =   "Other";
         if(jsonData[data.name] != null) {
-            if(jsonData[data.name].HourlyRateMale != null) {
-                data.HourlyRateMale = jsonData[data.name].HourlyRateMale;
+            if(jsonData[data.name].IncomeMale != null) {
+                data.IncomeMale = jsonData[data.name].IncomeMale;
             }else {
-                data.HourlyRateMale = 0;
+                data.IncomeMale = 0;
             }
-            if(jsonData[data.name].HourlyRateFemale != null) {
-                data.HourlyRateFemale = jsonData[data.name].HourlyRateFemale;
+            if(jsonData[data.name].IncomeFemale != null) {
+                data.IncomeFemale = jsonData[data.name].IncomeFemale;
             }else {
-                data.HourlyRateFemale = 0;
+                data.IncomeFemale = 0;
             }
         } else {
-            data.HourlyRateFemale = 0; data.HourlyRateMale = 0;
+            data.IncomeFemale = 0; data.IncomeMale = 0;
         }
     dataArray[5] = (data);
 
     var data = {};
     data.name =  "White";
         if(jsonData[data.name] != null) {
-            if(jsonData[data.name].HourlyRateMale != null) {
-                data.HourlyRateMale = jsonData[data.name].HourlyRateMale;
+            if(jsonData[data.name].IncomeMale != null) {
+                data.IncomeMale = jsonData[data.name].IncomeMale;
             }else {
-                data.HourlyRateMale = 0;
+                data.IncomeMale = 0;
             }
-            if(jsonData[data.name].HourlyRateFemale != null) {
-                data.HourlyRateFemale = jsonData[data.name].HourlyRateFemale;
+            if(jsonData[data.name].IncomeFemale != null) {
+                data.IncomeFemale = jsonData[data.name].IncomeFemale;
             }else {
-                data.HourlyRateFemale = 0;
+                data.IncomeFemale = 0;
             }
         } else {
-            data.HourlyRateFemale = 0; data.HourlyRateMale = 0;
+            data.IncomeFemale = 0; data.IncomeMale = 0;
         }
     dataArray[6] = (data);
 
     var data = {};
     data.name =  "StateAverage";
-    data.HourlyRateMale = jsonData.HourlyRateMale;
-    data.HourlyRateFemale = jsonData.HourlyRateFemale;
+    data.IncomeMale = jsonData.IncomeMale;
+    data.IncomeFemale = jsonData.IncomeFemale;
     dataArray[7] = (data);
 
    return dataArray;
@@ -427,11 +455,11 @@ var states;
 var hourlyRates;
 var largestDifference = 0;
 
-d3.json("../Data/HourlyRatePerState.json", function(json){
+d3.json("../Data/IncomeState.json", function(json){
     hourlyRates = json;
 
     for(var state in json) {
-        var difference = json[state].HourlyRateMale - json[state].HourlyRateFemale;
+        var difference = json[state].IncomeMale - json[state].IncomeFemale;
         if(difference > largestDifference){
             largestDifference = difference;
         }
@@ -444,7 +472,7 @@ d3.json("../Data/HourlyRatePerState.json", function(json){
 });
 
 MainSvg.append("text")
-    .text("Male to Female Hourly Pay Rate Difference")
+    .text("Male to Female Yearly Income Difference")
     .attr("x", 550)
     .attr("text-anchor", "middle")
     .attr("y", 50)
@@ -514,10 +542,10 @@ var processStates = function(){
 var getStateColour = function(stateData){
    // console.log(stateData.properties.STATE);
 
-    var femaleRate = hourlyRates[stateData.properties.STATE].HourlyRateFemale;
-    var maleRate = hourlyRates[stateData.properties.STATE].HourlyRateMale;
-    stateData.HourlyRateFemale = femaleRate;
-    stateData.HourlyRateMale = maleRate;
+    var femaleRate = hourlyRates[stateData.properties.STATE].IncomeFemale;
+    var maleRate = hourlyRates[stateData.properties.STATE].IncomeMale;
+    stateData.IncomeFemale = femaleRate;
+    stateData.IncomeMale = maleRate;
     //console.log(femaleRate + "  " + maleRate + "  " + stateData.properties.STATE);
 
     if(femaleRate >= maleRate){
@@ -534,10 +562,10 @@ var bodyNode = d3.select('body').node();
 var  mousoverState = function(stateData, path){
     d3.select(path.parentNode.appendChild(path)).attr("stroke", '#000')
                     .attr("stroke-width", 1.2);
-    console.log(stateData.properties.NAME + "  " + stateData.properties.STATE + " " + stateData.HourlyRateFemale + " " + stateData.HourlyRateMale);
+    console.log(stateData.properties.NAME + "  " + stateData.properties.STATE + " " + stateData.IncomeFemale + " " + stateData.IncomeMale);
 
-    var femaleRate = hourlyRates[stateData.properties.STATE].HourlyRateFemale;
-    var maleRate = hourlyRates[stateData.properties.STATE].HourlyRateMale;
+    var femaleRate = hourlyRates[stateData.properties.STATE].IncomeFemale;
+    var maleRate = hourlyRates[stateData.properties.STATE].IncomeMale;
 
     var color = 'rgba(200,150,68,0.8)';
     color = d3.select(path).attr('fill');
@@ -570,7 +598,7 @@ var  mousoverState = function(stateData, path){
     // Add text using the accessor function
 
 
-    var tooltipText = "<b>"+stateData.properties.NAME + "</b><br/> Female: " + femaleRate + "/hour<br/> Male: " + maleRate + "/hour";
+    var tooltipText = "<b>"+stateData.properties.NAME + "</b><br/> Female: " + femaleRate + "<br/> Male: " + maleRate + "";
     tooltipDiv.html(tooltipText);
     // Crop text arbitrarily
     //tooltipDiv.style('width', function(d, i){return (tooltipText.length > 80) ? '300px' : null;})
@@ -623,17 +651,17 @@ var initScale = function(){
     MainSvg.append("text")
         .attr("x", 75)
         .attr("y", 160)
-        .text("$"+largestDifference + "/Hour");
+        .text("$"+largestDifference + "");
 
     MainSvg.append("text")
         .attr("x", 75)
         .attr("y", 305)
-        .text("$0/Hour");
+        .text("$0");
 
     MainSvg.append("text")
         .attr("x", 75)
         .attr("y", 450)
-        .text("-$" +largestDifference+ "/Hour");
+        .text("-$" +largestDifference+ "");
 
     MainSvg.append("text")
         .attr("x", 20)

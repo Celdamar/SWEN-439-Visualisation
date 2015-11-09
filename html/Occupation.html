@@ -2,10 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hourly Pay Rate</title>
-
-    <style src="../css/HourlyRate.css">  </style>
-
+    <title>Occupation</title>
 
     <link href="../lib/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -24,7 +21,7 @@
         }
 
         .y.axisLeft text {
-            fill: rgb(90,160,210);
+            fill: rgb(50,50,50);
         }
 
         .axis path,
@@ -44,7 +41,6 @@
 
         text{
             pointer-events: none;
-            font-family:"Adobe Caslon Pro";
         }
 
         .scale {
@@ -52,6 +48,30 @@
             stroke-width: 05px;
         }
 
+        rect.bordered {
+            stroke: #E6E6E6;
+            stroke-width:2px;
+        }
+        text{
+            font-family:"Adobe Caslon Pro";
+        }
+        text.mono {
+            fill: #666;
+        }
+        text.raceLabel {
+            font-size: 14pt;
+        }
+        text.occupation {
+             font-size: 10pt;
+         }
+
+        text.axis-workweek {
+            fill: #000;
+        }
+
+        text.axis-worktime {
+            fill: #000;
+        }
     </style>
 
 </head>
@@ -59,26 +79,28 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">USA Income Variance</a>
+                <a class="navbar-brand" >USA Income Variance</a>
             </div>
             <div>
                 <ul class="nav navbar-nav">
                     <li ><a href="income.html">Average Income</a></li>
-                    <li  class="active"><a href="HourlyRate.html">Hourly Pay Rate</a></li>
-                    <li><a href="occupation.html">Occupational Income</a></li>
+                    <li ><a href="HourlyRate.html">Hourly Pay Rate</a></li>
+                    <li class="active"><a href="occupation.html">Occupational Income</a></li>
                     <li ><a href="Migration.html">Migration Patterns</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <h1 id="title" >Hourly Pay Rate</h1>
+    <h1 id="title" >Occupational Income</h1>
+    <div id="chart"></div>
+    <div id="dataset-picker">
     <div id="MainPanel" style="position:absolute; width:100%; height:100%"></div>
 
 
 
     <script src=../lib/d3.js charset="utf-8"></script>
-    <script src="../js/HourlyRate.js"></script>
+    <script src="../js/occupation.js"></script>
     <script src="../lib/jquery.min.js"></script>
     <script src="../lib/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
 </body>
