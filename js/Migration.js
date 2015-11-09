@@ -783,10 +783,10 @@ var bodyNode = d3.select('body').node();
 var updateToolTip = function(){
     if(tooltipDiv == null){return;}
     var continent = tooltipDiv.attr("continent");
-    var number = (yearWAOB[currentYear][continent]/largestMigration) * 100;
+    var number = yearWAOB[currentYear][continent];
     console.log(number);
     if(isNaN(number)){ number = 0}
-    var tooltipText = "<b>" + numberToContinent(continent) + ": " + Math.round(number*100)/100 + "%</b>";
+    var tooltipText = "<b>" + numberToContinent(continent) + ": " + number + "</b>";
     tooltipDiv.html(tooltipText);
 }
 
@@ -816,10 +816,10 @@ var  mousoverState = function(continent){
         .style('z-index', 1001);
     // Add text using the accessor function
 
-    var number = (yearWAOB[currentYear][continent]/largestMigration) * 100;
+    var number = yearWAOB[currentYear][continent];
     console.log(number);
     if(isNaN(number)){ number = 0}
-    var tooltipText = "<b>" + numberToContinent(continent) + ": " + Math.round(number*100)/100 + "%</b>";
+    var tooltipText = "<b>" + numberToContinent(continent) + ": " + number + "</b>";
     tooltipDiv.html(tooltipText);
     // Crop text arbitrarily
     //tooltipDiv.style('width', function(d, i){return (tooltipText.length > 80) ? '300px' : null;})

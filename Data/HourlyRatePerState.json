@@ -1,534 +1,534 @@
 {
   "44": {
-    "Pasific Islander": {"HourlyRateMale": 18.5},
-    "HourlyRateMale": 28.54,
+    "Pasific Islander": {"HourlyRateMale": 19.15},
+    "HourlyRateMale": 26.6,
     "Native Hawaiian": {
       "HourlyRateMale": 50,
-      "HourlyRateFemale": 29.67
+      "HourlyRateFemale": 21.79
     },
     "White": {
-      "HourlyRateMale": 29.26,
-      "HourlyRateFemale": 21.86
+      "HourlyRateMale": 27.67,
+      "HourlyRateFemale": 21.65
     },
-    "HourlyRateFemale": 21.82,
+    "HourlyRateFemale": 22.14,
     "American Indian": {
-      "HourlyRateMale": 18,
-      "HourlyRateFemale": 26.1
+      "HourlyRateMale": 16.95,
+      "HourlyRateFemale": 22.32
     },
     "Asian": {
-      "HourlyRateMale": 28.27,
-      "HourlyRateFemale": 28.88
+      "HourlyRateMale": 26.26,
+      "HourlyRateFemale": 47.4
     },
     "African American": {
-      "HourlyRateMale": 18.19,
-      "HourlyRateFemale": 20.23
+      "HourlyRateMale": 18.24,
+      "HourlyRateFemale": 18.34
     },
     "Other": {
-      "HourlyRateMale": 23.42,
-      "HourlyRateFemale": 12.58
+      "HourlyRateMale": 19.02,
+      "HourlyRateFemale": 12.91
     }
   },
   "00": {
     "Pasific Islander": {
-      "HourlyRateMale": 22.38,
-      "HourlyRateFemale": 18.01
+      "HourlyRateMale": 21.37,
+      "HourlyRateFemale": 18.64
     },
-    "HourlyRateMale": 26.67,
+    "HourlyRateMale": 25.34,
     "Native Hawaiian": {
-      "HourlyRateMale": 23.74,
-      "HourlyRateFemale": 19.06
+      "HourlyRateMale": 21.82,
+      "HourlyRateFemale": 18.04
     },
     "White": {
-      "HourlyRateMale": 27.66,
-      "HourlyRateFemale": 20.95
+      "HourlyRateMale": 26.44,
+      "HourlyRateFemale": 20.3
     },
-    "HourlyRateFemale": 20.77,
+    "HourlyRateFemale": 20.05,
     "American Indian": {
-      "HourlyRateMale": 19.6,
-      "HourlyRateFemale": 17.38
+      "HourlyRateMale": 19.21,
+      "HourlyRateFemale": 17.23
     },
     "Asian": {
-      "HourlyRateMale": 31.88,
-      "HourlyRateFemale": 26.16
+      "HourlyRateMale": 30.77,
+      "HourlyRateFemale": 25.63
     },
     "African American": {
-      "HourlyRateMale": 19.26,
-      "HourlyRateFemale": 18.32
+      "HourlyRateMale": 19.02,
+      "HourlyRateFemale": 17.79
     },
     "Other": {
-      "HourlyRateMale": 16.59,
-      "HourlyRateFemale": 15.97
+      "HourlyRateMale": 16.09,
+      "HourlyRateFemale": 14.98
     }
   },
   "01": {
     "Pasific Islander": {
-      "HourlyRateMale": 21.67,
-      "HourlyRateFemale": 16
+      "HourlyRateMale": 25.77,
+      "HourlyRateFemale": 15.02
     },
-    "HourlyRateMale": 24.47,
+    "HourlyRateMale": 23.25,
     "Native Hawaiian": {
-      "HourlyRateMale": 11.2,
-      "HourlyRateFemale": 14.5
+      "HourlyRateMale": 7.8,
+      "HourlyRateFemale": 18.22
     },
     "White": {
-      "HourlyRateMale": 26.5,
-      "HourlyRateFemale": 17.69
+      "HourlyRateMale": 25.55,
+      "HourlyRateFemale": 17.22
     },
-    "HourlyRateFemale": 16.82,
+    "HourlyRateFemale": 16.27,
     "American Indian": {
-      "HourlyRateMale": 18.64,
-      "HourlyRateFemale": 22.66
+      "HourlyRateMale": 19.62,
+      "HourlyRateFemale": 22.75
     },
     "Asian": {
-      "HourlyRateMale": 25.64,
-      "HourlyRateFemale": 18.45
+      "HourlyRateMale": 25.06,
+      "HourlyRateFemale": 18.17
     },
     "African American": {
-      "HourlyRateMale": 16.44,
-      "HourlyRateFemale": 14.39
+      "HourlyRateMale": 15.79,
+      "HourlyRateFemale": 14.06
     },
     "Other": {
-      "HourlyRateMale": 13.26,
-      "HourlyRateFemale": 13.05
+      "HourlyRateMale": 12.94,
+      "HourlyRateFemale": 13
     }
   },
   "45": {
     "Pasific Islander": {
-      "HourlyRateMale": 9.5,
-      "HourlyRateFemale": 19.5
+      "HourlyRateMale": 9.46,
+      "HourlyRateFemale": 17.26
     },
-    "HourlyRateMale": 22.81,
+    "HourlyRateMale": 21.44,
     "Native Hawaiian": {
-      "HourlyRateMale": 29.6,
-      "HourlyRateFemale": 10.5
+      "HourlyRateMale": 41.07,
+      "HourlyRateFemale": 10.51
     },
     "White": {
-      "HourlyRateMale": 24.8,
-      "HourlyRateFemale": 19.94
+      "HourlyRateMale": 23.63,
+      "HourlyRateFemale": 19.64
     },
-    "HourlyRateFemale": 18.5,
+    "HourlyRateFemale": 18.16,
     "American Indian": {
-      "HourlyRateMale": 19.63,
-      "HourlyRateFemale": 13.18
+      "HourlyRateMale": 18.22,
+      "HourlyRateFemale": 12.05
     },
     "Asian": {
-      "HourlyRateMale": 22.36,
-      "HourlyRateFemale": 18.78
+      "HourlyRateMale": 23.85,
+      "HourlyRateFemale": 23.85
     },
     "African American": {
-      "HourlyRateMale": 15.14,
-      "HourlyRateFemale": 14.41
+      "HourlyRateMale": 14.52,
+      "HourlyRateFemale": 14.4
     },
     "Other": {
-      "HourlyRateMale": 17.78,
-      "HourlyRateFemale": 11.42
+      "HourlyRateMale": 17.31,
+      "HourlyRateFemale": 11.4
     }
   },
   "02": {
     "Pasific Islander": {
-      "HourlyRateMale": 14.7,
-      "HourlyRateFemale": 16.54
+      "HourlyRateMale": 12.86,
+      "HourlyRateFemale": 12.23
     },
-    "HourlyRateMale": 24.82,
+    "HourlyRateMale": 25.39,
     "Native Hawaiian": {
-      "HourlyRateMale": 16.17,
-      "HourlyRateFemale": 12.67
+      "HourlyRateMale": 14.98,
+      "HourlyRateFemale": 9.25
     },
     "White": {
-      "HourlyRateMale": 26.7,
-      "HourlyRateFemale": 20.99
+      "HourlyRateMale": 26.97,
+      "HourlyRateFemale": 20.53
     },
-    "HourlyRateFemale": 19.93,
+    "HourlyRateFemale": 19.77,
     "American Indian": {
-      "HourlyRateMale": 22.34,
-      "HourlyRateFemale": 18.46
+      "HourlyRateMale": 21.53,
+      "HourlyRateFemale": 17.73
     },
     "Asian": {
-      "HourlyRateMale": 17.15,
-      "HourlyRateFemale": 18.38
+      "HourlyRateMale": 19.67,
+      "HourlyRateFemale": 19.97
     },
     "African American": {
-      "HourlyRateMale": 16.5,
-      "HourlyRateFemale": 13.64
+      "HourlyRateMale": 17.32,
+      "HourlyRateFemale": 13.79
     },
     "Other": {
-      "HourlyRateMale": 17.9,
-      "HourlyRateFemale": 9.72
+      "HourlyRateMale": 18.77,
+      "HourlyRateFemale": 10.63
     }
   },
   "46": {
     "Pasific Islander": {
-      "HourlyRateMale": 6.34,
-      "HourlyRateFemale": 19
+      "HourlyRateMale": 4.19,
+      "HourlyRateFemale": 21.63
     },
-    "HourlyRateMale": 17.89,
+    "HourlyRateMale": 18.97,
     "Native Hawaiian": {"HourlyRateMale": 21},
     "White": {
-      "HourlyRateMale": 18.48,
-      "HourlyRateFemale": 16.11
+      "HourlyRateMale": 19.65,
+      "HourlyRateFemale": 16.61
     },
-    "HourlyRateFemale": 15.94,
+    "HourlyRateFemale": 16.08,
     "American Indian": {
-      "HourlyRateMale": 13.21,
-      "HourlyRateFemale": 14.66
+      "HourlyRateMale": 13.95,
+      "HourlyRateFemale": 11.38
     },
     "Asian": {
-      "HourlyRateMale": 19.22,
-      "HourlyRateFemale": 21
+      "HourlyRateMale": 17.35,
+      "HourlyRateFemale": 19.65
     },
     "African American": {
-      "HourlyRateMale": 11.71,
-      "HourlyRateFemale": 8.24
+      "HourlyRateMale": 13.25,
+      "HourlyRateFemale": 7.21
     },
     "Other": {
-      "HourlyRateMale": 12.39,
-      "HourlyRateFemale": 8.54
+      "HourlyRateMale": 12.88,
+      "HourlyRateFemale": 8.01
     }
   },
   "47": {
     "Pasific Islander": {
-      "HourlyRateMale": 31.6,
-      "HourlyRateFemale": 13.95
+      "HourlyRateMale": 27.02,
+      "HourlyRateFemale": 15.08
     },
-    "HourlyRateMale": 22.91,
+    "HourlyRateMale": 21.49,
     "Native Hawaiian": {
-      "HourlyRateMale": 24.5,
-      "HourlyRateFemale": 7.75
+      "HourlyRateMale": 17.71,
+      "HourlyRateFemale": 7.93
     },
     "White": {
-      "HourlyRateMale": 23.85,
-      "HourlyRateFemale": 17.6
+      "HourlyRateMale": 22.59,
+      "HourlyRateFemale": 16.93
     },
-    "HourlyRateFemale": 17.35,
+    "HourlyRateFemale": 16.78,
     "American Indian": {
-      "HourlyRateMale": 17.12,
-      "HourlyRateFemale": 22.5
+      "HourlyRateMale": 17.46,
+      "HourlyRateFemale": 15.43
     },
     "Asian": {
-      "HourlyRateMale": 30.75,
-      "HourlyRateFemale": 18.66
+      "HourlyRateMale": 29.4,
+      "HourlyRateFemale": 18.39
     },
     "African American": {
-      "HourlyRateMale": 16.08,
-      "HourlyRateFemale": 16.06
+      "HourlyRateMale": 15.46,
+      "HourlyRateFemale": 16.14
     },
     "Other": {
-      "HourlyRateMale": 14.71,
-      "HourlyRateFemale": 17.05
+      "HourlyRateMale": 13.43,
+      "HourlyRateFemale": 12.8
     }
   },
   "04": {
     "Pasific Islander": {
-      "HourlyRateMale": 13.42,
-      "HourlyRateFemale": 25.5
+      "HourlyRateMale": 13.4,
+      "HourlyRateFemale": 36.34
     },
-    "HourlyRateMale": 25.82,
+    "HourlyRateMale": 23.47,
     "Native Hawaiian": {
-      "HourlyRateMale": 15.96,
-      "HourlyRateFemale": 16.64
+      "HourlyRateMale": 13.23,
+      "HourlyRateFemale": 15.32
     },
     "White": {
-      "HourlyRateMale": 27.06,
-      "HourlyRateFemale": 22.46
+      "HourlyRateMale": 24.42,
+      "HourlyRateFemale": 21.08
     },
-    "HourlyRateFemale": 21.35,
+    "HourlyRateFemale": 20.25,
     "American Indian": {
-      "HourlyRateMale": 16.89,
-      "HourlyRateFemale": 16.13
+      "HourlyRateMale": 15.81,
+      "HourlyRateFemale": 17
     },
     "Asian": {
-      "HourlyRateMale": 29.2,
-      "HourlyRateFemale": 23.39
+      "HourlyRateMale": 29.07,
+      "HourlyRateFemale": 23.19
     },
     "Other": {
-      "HourlyRateMale": 14.89,
-      "HourlyRateFemale": 12.93
+      "HourlyRateMale": 14.25,
+      "HourlyRateFemale": 12.45
     },
     "African American": {
-      "HourlyRateMale": 22.78,
-      "HourlyRateFemale": 16.9
+      "HourlyRateMale": 20.23,
+      "HourlyRateFemale": 16.08
     }
   },
   "48": {
     "Pasific Islander": {
-      "HourlyRateMale": 22.19,
-      "HourlyRateFemale": 15.3
+      "HourlyRateMale": 23.24,
+      "HourlyRateFemale": 15.91
     },
-    "HourlyRateMale": 26.19,
+    "HourlyRateMale": 24.77,
     "Native Hawaiian": {
-      "HourlyRateMale": 23.25,
-      "HourlyRateFemale": 18.43
+      "HourlyRateMale": 20.96,
+      "HourlyRateFemale": 16.02
     },
     "White": {
-      "HourlyRateMale": 27.22,
-      "HourlyRateFemale": 19.66
+      "HourlyRateMale": 25.79,
+      "HourlyRateFemale": 18.42
     },
-    "HourlyRateFemale": 19.45,
+    "HourlyRateFemale": 18.3,
     "American Indian": {
-      "HourlyRateMale": 20.54,
-      "HourlyRateFemale": 17
+      "HourlyRateMale": 19.81,
+      "HourlyRateFemale": 16.33
     },
     "Asian": {
-      "HourlyRateMale": 33.29,
-      "HourlyRateFemale": 24.22
+      "HourlyRateMale": 32.19,
+      "HourlyRateFemale": 23.89
     },
     "African American": {
-      "HourlyRateMale": 19.14,
-      "HourlyRateFemale": 18.62
+      "HourlyRateMale": 19.31,
+      "HourlyRateFemale": 17.71
     },
     "Other": {
-      "HourlyRateMale": 16.53,
-      "HourlyRateFemale": 13.37
+      "HourlyRateMale": 15.49,
+      "HourlyRateFemale": 12.86
     }
   },
   "05": {
     "Pasific Islander": {
-      "HourlyRateMale": 10,
-      "HourlyRateFemale": 67.43
+      "HourlyRateMale": 13.1,
+      "HourlyRateFemale": 52.72
     },
-    "HourlyRateMale": 20.55,
+    "HourlyRateMale": 20.64,
     "Native Hawaiian": {
-      "HourlyRateMale": 23,
-      "HourlyRateFemale": 6
+      "HourlyRateMale": 17.85,
+      "HourlyRateFemale": 7.29
     },
     "White": {
-      "HourlyRateMale": 21.16,
-      "HourlyRateFemale": 15.71
+      "HourlyRateMale": 21.36,
+      "HourlyRateFemale": 15.38
     },
-    "HourlyRateFemale": 15.81,
+    "HourlyRateFemale": 15.91,
     "American Indian": {
-      "HourlyRateMale": 15.34,
-      "HourlyRateFemale": 14.15
+      "HourlyRateMale": 15.94,
+      "HourlyRateFemale": 15.9
     },
     "Asian": {
-      "HourlyRateMale": 28.23,
-      "HourlyRateFemale": 16.44
+      "HourlyRateMale": 28.64,
+      "HourlyRateFemale": 16.94
     },
     "African American": {
-      "HourlyRateMale": 15.16,
-      "HourlyRateFemale": 16.22
+      "HourlyRateMale": 15.38,
+      "HourlyRateFemale": 18.04
     },
     "Other": {
-      "HourlyRateMale": 17.28,
-      "HourlyRateFemale": 13.07
+      "HourlyRateMale": 17.35,
+      "HourlyRateFemale": 12.36
     }
   },
   "49": {
     "Pasific Islander": {
-      "HourlyRateMale": 16.05,
-      "HourlyRateFemale": 11.67
+      "HourlyRateMale": 15.51,
+      "HourlyRateFemale": 12.17
     },
-    "HourlyRateMale": 25.59,
+    "HourlyRateMale": 24.72,
     "Native Hawaiian": {
-      "HourlyRateMale": 19.69,
-      "HourlyRateFemale": 12.55
+      "HourlyRateMale": 16.69,
+      "HourlyRateFemale": 12.56
     },
     "White": {
-      "HourlyRateMale": 26.23,
-      "HourlyRateFemale": 17.52
+      "HourlyRateMale": 25.59,
+      "HourlyRateFemale": 17.43
     },
-    "HourlyRateFemale": 17.28,
+    "HourlyRateFemale": 17.02,
     "American Indian": {
-      "HourlyRateMale": 19.93,
-      "HourlyRateFemale": 13.19
+      "HourlyRateMale": 20.73,
+      "HourlyRateFemale": 13.48
     },
     "Asian": {
-      "HourlyRateMale": 23.83,
-      "HourlyRateFemale": 16.89
+      "HourlyRateMale": 23.91,
+      "HourlyRateFemale": 16.1
     },
     "African American": {
-      "HourlyRateMale": 14.28,
-      "HourlyRateFemale": 14.43
+      "HourlyRateMale": 16.09,
+      "HourlyRateFemale": 13.2
     },
     "Other": {
-      "HourlyRateMale": 15.29,
-      "HourlyRateFemale": 12.21
+      "HourlyRateMale": 14.38,
+      "HourlyRateFemale": 10.91
     }
   },
   "06": {
     "Pasific Islander": {
-      "HourlyRateMale": 24.94,
-      "HourlyRateFemale": 20.32
+      "HourlyRateMale": 26.91,
+      "HourlyRateFemale": 20.21
     },
-    "HourlyRateMale": 29.48,
+    "HourlyRateMale": 27.09,
     "Native Hawaiian": {
-      "HourlyRateMale": 23.4,
-      "HourlyRateFemale": 21.06
+      "HourlyRateMale": 21.86,
+      "HourlyRateFemale": 20.11
     },
     "White": {
-      "HourlyRateMale": 31.69,
-      "HourlyRateFemale": 24.91
+      "HourlyRateMale": 28.87,
+      "HourlyRateFemale": 23.39
     },
-    "HourlyRateFemale": 24.78,
+    "HourlyRateFemale": 23.39,
     "American Indian": {
-      "HourlyRateMale": 21.08,
-      "HourlyRateFemale": 19.99
+      "HourlyRateMale": 20.56,
+      "HourlyRateFemale": 21.71
     },
     "Asian": {
-      "HourlyRateMale": 32.18,
-      "HourlyRateFemale": 30.92
+      "HourlyRateMale": 31.34,
+      "HourlyRateFemale": 30.36
     },
     "Other": {
-      "HourlyRateMale": 16.58,
-      "HourlyRateFemale": 15.52
+      "HourlyRateMale": 16.25,
+      "HourlyRateFemale": 15.01
     },
     "African American": {
-      "HourlyRateMale": 23.21,
-      "HourlyRateFemale": 21.93
+      "HourlyRateMale": 22.43,
+      "HourlyRateFemale": 21.47
     }
   },
   "08": {
     "Pasific Islander": {
-      "HourlyRateMale": 16.87,
-      "HourlyRateFemale": 34.64
+      "HourlyRateMale": 14.8,
+      "HourlyRateFemale": 26.74
     },
-    "HourlyRateMale": 31.51,
+    "HourlyRateMale": 26.91,
     "Native Hawaiian": {
-      "HourlyRateMale": 45.88,
-      "HourlyRateFemale": 18.88
+      "HourlyRateMale": 54.23,
+      "HourlyRateFemale": 16.02
     },
     "White": {
-      "HourlyRateMale": 32.72,
-      "HourlyRateFemale": 21.57
+      "HourlyRateMale": 27.92,
+      "HourlyRateFemale": 21.01
     },
-    "HourlyRateFemale": 21.29,
+    "HourlyRateFemale": 20.63,
     "American Indian": {
-      "HourlyRateMale": 27.99,
-      "HourlyRateFemale": 16.83
+      "HourlyRateMale": 29.96,
+      "HourlyRateFemale": 16.77
     },
     "Asian": {
-      "HourlyRateMale": 28.57,
-      "HourlyRateFemale": 22.43
+      "HourlyRateMale": 27.86,
+      "HourlyRateFemale": 22.21
     },
     "African American": {
       "HourlyRateMale": 17.49,
-      "HourlyRateFemale": 17.85
+      "HourlyRateFemale": 18.09
     },
     "Other": {
-      "HourlyRateMale": 22.95,
-      "HourlyRateFemale": 15.79
+      "HourlyRateMale": 22.37,
+      "HourlyRateFemale": 14.18
     }
   },
   "09": {
     "Pasific Islander": {
-      "HourlyRateMale": 15.64,
-      "HourlyRateFemale": 10.1
+      "HourlyRateMale": 15.66,
+      "HourlyRateFemale": 10.08
     },
-    "HourlyRateMale": 34.14,
+    "HourlyRateMale": 31.74,
     "Native Hawaiian": {
       "HourlyRateMale": 19,
       "HourlyRateFemale": 38
     },
     "White": {
-      "HourlyRateMale": 35.94,
-      "HourlyRateFemale": 26.42
+      "HourlyRateMale": 33.85,
+      "HourlyRateFemale": 25.3
     },
-    "HourlyRateFemale": 25.5,
+    "HourlyRateFemale": 24.39,
     "American Indian": {
-      "HourlyRateMale": 19.96,
-      "HourlyRateFemale": 21.09
+      "HourlyRateMale": 19.81,
+      "HourlyRateFemale": 20.51
     },
     "Asian": {
-      "HourlyRateMale": 36.6,
-      "HourlyRateFemale": 25.7
+      "HourlyRateMale": 34.78,
+      "HourlyRateFemale": 24.3
     },
     "African American": {
-      "HourlyRateMale": 20.48,
-      "HourlyRateFemale": 20.79
+      "HourlyRateMale": 20.54,
+      "HourlyRateFemale": 21.87
     },
     "Other": {
-      "HourlyRateMale": 16.52,
-      "HourlyRateFemale": 15.25
+      "HourlyRateMale": 16.26,
+      "HourlyRateFemale": 14.89
     }
   },
   "50": {
-    "Pasific Islander": {"HourlyRateFemale": 12},
-    "HourlyRateMale": 24.42,
+    "Pasific Islander": {"HourlyRateFemale": 21.99},
+    "HourlyRateMale": 27.21,
     "Native Hawaiian": {"HourlyRateFemale": 14},
     "White": {
-      "HourlyRateMale": 24.41,
-      "HourlyRateFemale": 18.26
+      "HourlyRateMale": 27.22,
+      "HourlyRateFemale": 17.82
     },
-    "HourlyRateFemale": 18.11,
+    "HourlyRateFemale": 17.67,
     "American Indian": {
-      "HourlyRateMale": 14.34,
-      "HourlyRateFemale": 11.95
+      "HourlyRateMale": 16.39,
+      "HourlyRateFemale": 14.28
     },
     "Asian": {
-      "HourlyRateMale": 17.8,
-      "HourlyRateFemale": 8.64
+      "HourlyRateMale": 19.69,
+      "HourlyRateFemale": 11.47
     },
     "African American": {
-      "HourlyRateMale": 27.13,
-      "HourlyRateFemale": 12.93
+      "HourlyRateMale": 32.89,
+      "HourlyRateFemale": 16.71
     },
     "Other": {
-      "HourlyRateMale": 14.75,
-      "HourlyRateFemale": 13.63
+      "HourlyRateMale": 17.26,
+      "HourlyRateFemale": 11.63
     }
   },
   "51": {
     "Pasific Islander": {
-      "HourlyRateMale": 16.87,
-      "HourlyRateFemale": 17
+      "HourlyRateMale": 16.85,
+      "HourlyRateFemale": 17.89
     },
-    "HourlyRateMale": 31.01,
+    "HourlyRateMale": 28.76,
     "Native Hawaiian": {
-      "HourlyRateMale": 44.86,
-      "HourlyRateFemale": 24.44
+      "HourlyRateMale": 66.76,
+      "HourlyRateFemale": 24.99
     },
     "White": {
-      "HourlyRateMale": 32.66,
-      "HourlyRateFemale": 23.4
+      "HourlyRateMale": 30.53,
+      "HourlyRateFemale": 22.22
     },
-    "HourlyRateFemale": 22.78,
+    "HourlyRateFemale": 21.59,
     "American Indian": {
-      "HourlyRateMale": 23.52,
-      "HourlyRateFemale": 21.8
+      "HourlyRateMale": 21.67,
+      "HourlyRateFemale": 22.01
     },
     "Asian": {
-      "HourlyRateMale": 35.72,
-      "HourlyRateFemale": 27.56
+      "HourlyRateMale": 34.1,
+      "HourlyRateFemale": 26.85
     },
     "African American": {
-      "HourlyRateMale": 21.3,
-      "HourlyRateFemale": 18.73
+      "HourlyRateMale": 20.38,
+      "HourlyRateFemale": 18.2
     },
     "Other": {
-      "HourlyRateMale": 18.59,
-      "HourlyRateFemale": 14.98
+      "HourlyRateMale": 19.28,
+      "HourlyRateFemale": 14.85
     }
   },
   "53": {
     "Pasific Islander": {
-      "HourlyRateMale": 17.82,
-      "HourlyRateFemale": 14.97
+      "HourlyRateMale": 17.28,
+      "HourlyRateFemale": 16.5
     },
-    "HourlyRateMale": 29.82,
+    "HourlyRateMale": 28.08,
     "Native Hawaiian": {
-      "HourlyRateMale": 20.48,
-      "HourlyRateFemale": 18.4
+      "HourlyRateMale": 19.94,
+      "HourlyRateFemale": 16.84
     },
     "White": {
-      "HourlyRateMale": 30.57,
-      "HourlyRateFemale": 22.2
+      "HourlyRateMale": 28.73,
+      "HourlyRateFemale": 21.38
     },
-    "HourlyRateFemale": 21.92,
+    "HourlyRateFemale": 21.15,
     "American Indian": {
-      "HourlyRateMale": 27.84,
-      "HourlyRateFemale": 17.53
+      "HourlyRateMale": 29.13,
+      "HourlyRateFemale": 17.52
     },
     "Asian": {
-      "HourlyRateMale": 37.01,
-      "HourlyRateFemale": 22.72
+      "HourlyRateMale": 31.37,
+      "HourlyRateFemale": 22.88
     },
     "African American": {
-      "HourlyRateMale": 20.91,
-      "HourlyRateFemale": 19.56
+      "HourlyRateMale": 20.94,
+      "HourlyRateFemale": 17.73
     },
     "Other": {
-      "HourlyRateMale": 18.11,
-      "HourlyRateFemale": 14.3
+      "HourlyRateMale": 17.89,
+      "HourlyRateFemale": 14.62
     }
   },
   "10": {
@@ -536,1085 +536,1085 @@
       "HourlyRateMale": 8,
       "HourlyRateFemale": 12
     },
-    "HourlyRateMale": 26.24,
+    "HourlyRateMale": 24.88,
     "Native Hawaiian": {
-      "HourlyRateMale": 29.34,
-      "HourlyRateFemale": 14.5
+      "HourlyRateMale": 36.96,
+      "HourlyRateFemale": 14.14
     },
     "White": {
-      "HourlyRateMale": 27.74,
-      "HourlyRateFemale": 22.95
+      "HourlyRateMale": 26.41,
+      "HourlyRateFemale": 22.06
     },
-    "HourlyRateFemale": 21.79,
+    "HourlyRateFemale": 20.93,
     "American Indian": {
-      "HourlyRateMale": 16,
-      "HourlyRateFemale": 14.81
+      "HourlyRateMale": 13.01,
+      "HourlyRateFemale": 14.48
     },
     "Asian": {
-      "HourlyRateMale": 30.58,
-      "HourlyRateFemale": 24.8
+      "HourlyRateMale": 31.28,
+      "HourlyRateFemale": 24.75
     },
     "Other": {
-      "HourlyRateMale": 13.77,
-      "HourlyRateFemale": 14.23
+      "HourlyRateMale": 13.81,
+      "HourlyRateFemale": 14.27
     },
     "African American": {
-      "HourlyRateMale": 18.75,
-      "HourlyRateFemale": 16.97
+      "HourlyRateMale": 19.01,
+      "HourlyRateFemale": 17.52
     }
   },
   "54": {
-    "Pasific Islander": {"HourlyRateMale": 20.34},
-    "HourlyRateMale": 20.81,
+    "Pasific Islander": {"HourlyRateMale": 25.29},
+    "HourlyRateMale": 20.37,
     "Native Hawaiian": {"HourlyRateFemale": 9},
     "White": {
-      "HourlyRateMale": 20.96,
-      "HourlyRateFemale": 16.43
+      "HourlyRateMale": 20.53,
+      "HourlyRateFemale": 16.11
     },
-    "HourlyRateFemale": 16.35,
+    "HourlyRateFemale": 16.11,
     "American Indian": {
-      "HourlyRateMale": 18.62,
-      "HourlyRateFemale": 13.94
+      "HourlyRateMale": 24.89,
+      "HourlyRateFemale": 12.41
     },
     "Asian": {
-      "HourlyRateMale": 25.35,
-      "HourlyRateFemale": 15.65
+      "HourlyRateMale": 25.57,
+      "HourlyRateFemale": 15.39
     },
     "African American": {
-      "HourlyRateMale": 16.31,
-      "HourlyRateFemale": 14.14
+      "HourlyRateMale": 16.29,
+      "HourlyRateFemale": 16.12
     },
     "Other": {
-      "HourlyRateMale": 10.37,
-      "HourlyRateFemale": 9
+      "HourlyRateMale": 11.33,
+      "HourlyRateFemale": 10.83
     }
   },
   "11": {
     "Pasific Islander": {
       "HourlyRateMale": 19,
-      "HourlyRateFemale": 12.8
+      "HourlyRateFemale": 12.79
     },
-    "HourlyRateMale": 34.33,
+    "HourlyRateMale": 32.55,
     "Native Hawaiian": {
       "HourlyRateMale": 81,
       "HourlyRateFemale": 17
     },
     "White": {
-      "HourlyRateMale": 41.2,
-      "HourlyRateFemale": 38.1
+      "HourlyRateMale": 39.93,
+      "HourlyRateFemale": 43.19
     },
-    "HourlyRateFemale": 41.78,
+    "HourlyRateFemale": 39.38,
     "American Indian": {
-      "HourlyRateMale": 19.19,
-      "HourlyRateFemale": 22.28
+      "HourlyRateMale": 19.6,
+      "HourlyRateFemale": 26.53
     },
     "Asian": {
-      "HourlyRateMale": 31.59,
-      "HourlyRateFemale": 28.49
+      "HourlyRateMale": 32.29,
+      "HourlyRateFemale": 31.64
     },
     "African American": {
-      "HourlyRateMale": 24.39,
-      "HourlyRateFemale": 25.84
+      "HourlyRateMale": 23.93,
+      "HourlyRateFemale": 25.42
     },
     "Other": {
-      "HourlyRateMale": 17.86,
-      "HourlyRateFemale": 321.34
+      "HourlyRateMale": 16.71,
+      "HourlyRateFemale": 152.51
     }
   },
   "55": {
     "Pasific Islander": {
-      "HourlyRateMale": 13,
-      "HourlyRateFemale": 6.17
+      "HourlyRateMale": 13.07,
+      "HourlyRateFemale": 5.72
     },
-    "HourlyRateMale": 22.61,
+    "HourlyRateMale": 22.85,
     "Native Hawaiian": {
-      "HourlyRateMale": 12,
-      "HourlyRateFemale": 37.6
+      "HourlyRateMale": 12.92,
+      "HourlyRateFemale": 24.87
     },
     "White": {
-      "HourlyRateMale": 22.86,
-      "HourlyRateFemale": 18.23
+      "HourlyRateMale": 23.27,
+      "HourlyRateFemale": 18.37
     },
-    "HourlyRateFemale": 18.11,
+    "HourlyRateFemale": 18.08,
     "American Indian": {
-      "HourlyRateMale": 14.43,
-      "HourlyRateFemale": 15.84
+      "HourlyRateMale": 13.73,
+      "HourlyRateFemale": 16.98
     },
     "Asian": {
-      "HourlyRateMale": 28.24,
-      "HourlyRateFemale": 18.95
+      "HourlyRateMale": 29.09,
+      "HourlyRateFemale": 18.28
     },
     "African American": {
-      "HourlyRateMale": 15.57,
-      "HourlyRateFemale": 15.17
+      "HourlyRateMale": 15.19,
+      "HourlyRateFemale": 14.5
     },
     "Other": {
-      "HourlyRateMale": 12.93,
-      "HourlyRateFemale": 13.05
+      "HourlyRateMale": 12.68,
+      "HourlyRateFemale": 13.31
     }
   },
   "12": {
     "Pasific Islander": {
-      "HourlyRateMale": 18.32,
-      "HourlyRateFemale": 14.46
+      "HourlyRateMale": 16.28,
+      "HourlyRateFemale": 14.02
     },
-    "HourlyRateMale": 26.63,
+    "HourlyRateMale": 23.6,
     "Native Hawaiian": {
-      "HourlyRateMale": 15.86,
-      "HourlyRateFemale": 31.39
+      "HourlyRateMale": 14.36,
+      "HourlyRateFemale": 21.14
     },
     "White": {
-      "HourlyRateMale": 28.3,
-      "HourlyRateFemale": 20.07
+      "HourlyRateMale": 25.06,
+      "HourlyRateFemale": 18.79
     },
-    "HourlyRateFemale": 19.42,
+    "HourlyRateFemale": 18.13,
     "American Indian": {
-      "HourlyRateMale": 17.48,
-      "HourlyRateFemale": 20.22
+      "HourlyRateMale": 16.09,
+      "HourlyRateFemale": 22.69
     },
     "Asian": {
-      "HourlyRateMale": 28.67,
-      "HourlyRateFemale": 21.49
+      "HourlyRateMale": 27.94,
+      "HourlyRateFemale": 20.12
     },
     "African American": {
-      "HourlyRateMale": 16.81,
-      "HourlyRateFemale": 16.22
+      "HourlyRateMale": 16.32,
+      "HourlyRateFemale": 15.45
     },
     "Other": {
-      "HourlyRateMale": 16.95,
-      "HourlyRateFemale": 17
+      "HourlyRateMale": 15.59,
+      "HourlyRateFemale": 15.42
     }
   },
   "56": {
     "Pasific Islander": {
-      "HourlyRateMale": 17.75,
-      "HourlyRateFemale": 10
+      "HourlyRateMale": 16.67,
+      "HourlyRateFemale": 9.93
     },
-    "HourlyRateMale": 23.31,
+    "HourlyRateMale": 23.47,
     "Native Hawaiian": {
-      "HourlyRateMale": 16.5,
+      "HourlyRateMale": 14.92,
       "HourlyRateFemale": 10
     },
     "White": {
-      "HourlyRateMale": 23.66,
-      "HourlyRateFemale": 16.59
+      "HourlyRateMale": 23.53,
+      "HourlyRateFemale": 16.27
     },
-    "HourlyRateFemale": 16.49,
+    "HourlyRateFemale": 16.14,
     "American Indian": {
-      "HourlyRateMale": 17.18,
-      "HourlyRateFemale": 16.25
+      "HourlyRateMale": 19.07,
+      "HourlyRateFemale": 13.97
     },
     "Asian": {
-      "HourlyRateMale": 32.4,
-      "HourlyRateFemale": 10.5
+      "HourlyRateMale": 36.07,
+      "HourlyRateFemale": 16.28
     },
     "Other": {
-      "HourlyRateMale": 15.57,
-      "HourlyRateFemale": 15.04
+      "HourlyRateMale": 19.65,
+      "HourlyRateFemale": 11.25
     },
     "African American": {
-      "HourlyRateMale": 16.72,
-      "HourlyRateFemale": 22.88
+      "HourlyRateMale": 17.54,
+      "HourlyRateFemale": 24.08
     }
   },
   "13": {
     "Pasific Islander": {
-      "HourlyRateMale": 16.4,
-      "HourlyRateFemale": 17.04
+      "HourlyRateMale": 16.6,
+      "HourlyRateFemale": 14.11
     },
-    "HourlyRateMale": 24.53,
+    "HourlyRateMale": 22.95,
     "Native Hawaiian": {
-      "HourlyRateMale": 9.5,
-      "HourlyRateFemale": 11.56
+      "HourlyRateMale": 8.84,
+      "HourlyRateFemale": 13
     },
     "White": {
-      "HourlyRateMale": 26.75,
-      "HourlyRateFemale": 21.2
+      "HourlyRateMale": 25.31,
+      "HourlyRateFemale": 20.36
     },
-    "HourlyRateFemale": 19.93,
+    "HourlyRateFemale": 19.05,
     "American Indian": {
-      "HourlyRateMale": 20.66,
-      "HourlyRateFemale": 15.45
+      "HourlyRateMale": 18.93,
+      "HourlyRateFemale": 14.19
     },
     "Asian": {
-      "HourlyRateMale": 28.32,
-      "HourlyRateFemale": 22.02
+      "HourlyRateMale": 27.26,
+      "HourlyRateFemale": 21.38
     },
     "African American": {
-      "HourlyRateMale": 17.68,
-      "HourlyRateFemale": 16.99
+      "HourlyRateMale": 17.61,
+      "HourlyRateFemale": 16.66
     },
     "Other": {
-      "HourlyRateMale": 14.38,
-      "HourlyRateFemale": 15.2
+      "HourlyRateMale": 13.99,
+      "HourlyRateFemale": 15.47
     }
   },
   "15": {
     "Pasific Islander": {
-      "HourlyRateMale": 21.5,
-      "HourlyRateFemale": 13.56
+      "HourlyRateMale": 19.38,
+      "HourlyRateFemale": 14.52
     },
-    "HourlyRateMale": 25.69,
+    "HourlyRateMale": 24.36,
     "Native Hawaiian": {
-      "HourlyRateMale": 24.99,
-      "HourlyRateFemale": 19.07
+      "HourlyRateMale": 22.62,
+      "HourlyRateFemale": 18.33
     },
     "White": {
-      "HourlyRateMale": 28.39,
-      "HourlyRateFemale": 21.47
+      "HourlyRateMale": 25.12,
+      "HourlyRateFemale": 21.78
     },
-    "HourlyRateFemale": 20.41,
+    "HourlyRateFemale": 20.2,
     "American Indian": {
-      "HourlyRateMale": 24.86,
-      "HourlyRateFemale": 23.73
+      "HourlyRateMale": 26.37,
+      "HourlyRateFemale": 19.42
     },
     "Asian": {
-      "HourlyRateMale": 25.33,
-      "HourlyRateFemale": 20.26
+      "HourlyRateMale": 24.71,
+      "HourlyRateFemale": 19.44
     },
     "African American": {
-      "HourlyRateMale": 19.61,
-      "HourlyRateFemale": 15.87
+      "HourlyRateMale": 20.62,
+      "HourlyRateFemale": 15.79
     },
     "Other": {
-      "HourlyRateMale": 18.68,
-      "HourlyRateFemale": 16.97
+      "HourlyRateMale": 21.58,
+      "HourlyRateFemale": 16.1
     }
   },
   "16": {
     "Pasific Islander": {
-      "HourlyRateMale": 9,
-      "HourlyRateFemale": 23.2
+      "HourlyRateMale": 7.77,
+      "HourlyRateFemale": 28
     },
-    "HourlyRateMale": 20.98,
+    "HourlyRateMale": 20.99,
     "Native Hawaiian": {
       "HourlyRateMale": 6,
-      "HourlyRateFemale": 13.6
+      "HourlyRateFemale": 18.56
     },
     "White": {
-      "HourlyRateMale": 21.18,
-      "HourlyRateFemale": 15.63
+      "HourlyRateMale": 21.12,
+      "HourlyRateFemale": 15.88
     },
-    "HourlyRateFemale": 15.57,
+    "HourlyRateFemale": 15.85,
     "American Indian": {
-      "HourlyRateMale": 15.2,
-      "HourlyRateFemale": 14.86
+      "HourlyRateMale": 13.22,
+      "HourlyRateFemale": 14.8
     },
     "Asian": {
-      "HourlyRateMale": 22.86,
-      "HourlyRateFemale": 19.46
+      "HourlyRateMale": 24.53,
+      "HourlyRateFemale": 21.77
     },
     "Other": {
-      "HourlyRateMale": 14.59,
-      "HourlyRateFemale": 10.75
+      "HourlyRateMale": 13.25,
+      "HourlyRateFemale": 8.98
     },
     "African American": {
-      "HourlyRateMale": 22.34,
-      "HourlyRateFemale": 10.1
+      "HourlyRateMale": 22.76,
+      "HourlyRateFemale": 9.44
     }
   },
   "17": {
     "Pasific Islander": {
-      "HourlyRateMale": 20.36,
-      "HourlyRateFemale": 16.56
+      "HourlyRateMale": 19.11,
+      "HourlyRateFemale": 22.26
     },
-    "HourlyRateMale": 27.35,
+    "HourlyRateMale": 26.9,
     "Native Hawaiian": {
-      "HourlyRateMale": 22,
-      "HourlyRateFemale": 9.45
+      "HourlyRateMale": 18.17,
+      "HourlyRateFemale": 9.32
     },
     "White": {
-      "HourlyRateMale": 27.83,
-      "HourlyRateFemale": 21.86
+      "HourlyRateMale": 27.66,
+      "HourlyRateFemale": 22.02
     },
-    "HourlyRateFemale": 21.61,
+    "HourlyRateFemale": 21.45,
     "American Indian": {
-      "HourlyRateMale": 21.91,
-      "HourlyRateFemale": 16.57
+      "HourlyRateMale": 22.48,
+      "HourlyRateFemale": 17.13
     },
     "Asian": {
-      "HourlyRateMale": 33.6,
-      "HourlyRateFemale": 25.98
+      "HourlyRateMale": 31.67,
+      "HourlyRateFemale": 25.26
     },
     "Other": {
-      "HourlyRateMale": 15.81,
-      "HourlyRateFemale": 14.63
+      "HourlyRateMale": 15.25,
+      "HourlyRateFemale": 14.25
     },
     "African American": {
-      "HourlyRateMale": 23.86,
-      "HourlyRateFemale": 19.71
+      "HourlyRateMale": 25.72,
+      "HourlyRateFemale": 19.23
     }
   },
   "18": {
     "Pasific Islander": {
-      "HourlyRateMale": 14.3,
-      "HourlyRateFemale": 14.13
+      "HourlyRateMale": 24.81,
+      "HourlyRateFemale": 14.34
     },
-    "HourlyRateMale": 22.3,
+    "HourlyRateMale": 21.88,
     "Native Hawaiian": {
-      "HourlyRateMale": 12,
-      "HourlyRateFemale": 16.75
+      "HourlyRateMale": 17.06,
+      "HourlyRateFemale": 15.78
     },
     "White": {
-      "HourlyRateMale": 22.69,
-      "HourlyRateFemale": 16.47
+      "HourlyRateMale": 22.36,
+      "HourlyRateFemale": 16.5
     },
     "HourlyRateFemale": 16.42,
     "American Indian": {
-      "HourlyRateMale": 14.09,
-      "HourlyRateFemale": 14.18
+      "HourlyRateMale": 13.68,
+      "HourlyRateFemale": 12.96
     },
     "Asian": {
-      "HourlyRateMale": 26.8,
-      "HourlyRateFemale": 19.29
+      "HourlyRateMale": 27.58,
+      "HourlyRateFemale": 18.61
     },
     "African American": {
-      "HourlyRateMale": 16.18,
-      "HourlyRateFemale": 15.59
+      "HourlyRateMale": 16.38,
+      "HourlyRateFemale": 15.89
     },
     "Other": {
-      "HourlyRateMale": 15.36,
-      "HourlyRateFemale": 12.7
+      "HourlyRateMale": 14.57,
+      "HourlyRateFemale": 12.61
     }
   },
   "19": {
     "Pasific Islander": {
-      "HourlyRateMale": 12.4,
-      "HourlyRateFemale": 12.8
+      "HourlyRateMale": 16.95,
+      "HourlyRateFemale": 7.59
     },
-    "HourlyRateMale": 20.57,
-    "Native Hawaiian": {"HourlyRateMale": 11},
+    "HourlyRateMale": 21.47,
+    "Native Hawaiian": {"HourlyRateMale": 9.77},
     "White": {
-      "HourlyRateMale": 20.66,
-      "HourlyRateFemale": 17.48
+      "HourlyRateMale": 21.57,
+      "HourlyRateFemale": 17.55
     },
-    "HourlyRateFemale": 17.4,
+    "HourlyRateFemale": 17.51,
     "American Indian": {
-      "HourlyRateMale": 19.19,
-      "HourlyRateFemale": 13.71
+      "HourlyRateMale": 25.72,
+      "HourlyRateFemale": 13.54
     },
     "Asian": {
-      "HourlyRateMale": 24.2,
-      "HourlyRateFemale": 18.97
+      "HourlyRateMale": 27.99,
+      "HourlyRateFemale": 21.66
     },
     "Other": {
-      "HourlyRateMale": 15.36,
-      "HourlyRateFemale": 13.02
+      "HourlyRateMale": 17.3,
+      "HourlyRateFemale": 12.44
     },
     "African American": {
-      "HourlyRateMale": 14.37,
-      "HourlyRateFemale": 12.63
+      "HourlyRateMale": 14.08,
+      "HourlyRateFemale": 13.34
     }
   },
   "20": {
     "Pasific Islander": {
-      "HourlyRateMale": 14.8,
-      "HourlyRateFemale": 13.23
+      "HourlyRateMale": 14.98,
+      "HourlyRateFemale": 15.72
     },
-    "HourlyRateMale": 22.42,
+    "HourlyRateMale": 22.41,
     "Native Hawaiian": {
-      "HourlyRateMale": 12,
-      "HourlyRateFemale": 5.5
+      "HourlyRateMale": 16.95,
+      "HourlyRateFemale": 5.88
     },
     "White": {
-      "HourlyRateMale": 22.44,
-      "HourlyRateFemale": 17.32
+      "HourlyRateMale": 22.56,
+      "HourlyRateFemale": 17.23
     },
-    "HourlyRateFemale": 17.34,
+    "HourlyRateFemale": 17.28,
     "American Indian": {
-      "HourlyRateMale": 16.63,
-      "HourlyRateFemale": 14.01
+      "HourlyRateMale": 16.73,
+      "HourlyRateFemale": 13.11
     },
     "Asian": {
-      "HourlyRateMale": 35.26,
-      "HourlyRateFemale": 18.57
+      "HourlyRateMale": 33.97,
+      "HourlyRateFemale": 20.64
     },
     "African American": {
-      "HourlyRateMale": 16.61,
-      "HourlyRateFemale": 17.63
+      "HourlyRateMale": 16.41,
+      "HourlyRateFemale": 16.62
     },
     "Other": {
-      "HourlyRateMale": 14.43,
-      "HourlyRateFemale": 12.45
+      "HourlyRateMale": 15.76,
+      "HourlyRateFemale": 12.99
     }
   },
   "21": {
     "Pasific Islander": {
-      "HourlyRateMale": 18,
-      "HourlyRateFemale": 21
+      "HourlyRateMale": 21.01,
+      "HourlyRateFemale": 12.22
     },
-    "HourlyRateMale": 22.02,
+    "HourlyRateMale": 20.68,
     "Native Hawaiian": {
       "HourlyRateMale": 4,
       "HourlyRateFemale": 14.67
     },
     "White": {
-      "HourlyRateMale": 22.5,
-      "HourlyRateFemale": 17.39
+      "HourlyRateMale": 21.15,
+      "HourlyRateFemale": 17.03
     },
-    "HourlyRateFemale": 17.33,
+    "HourlyRateFemale": 17.06,
     "American Indian": {
-      "HourlyRateMale": 13.44,
-      "HourlyRateFemale": 11.89
+      "HourlyRateMale": 12.94,
+      "HourlyRateFemale": 12.08
     },
     "Asian": {
-      "HourlyRateMale": 32.53,
-      "HourlyRateFemale": 19.77
+      "HourlyRateMale": 31.2,
+      "HourlyRateFemale": 18.61
     },
     "African American": {
-      "HourlyRateMale": 14.48,
-      "HourlyRateFemale": 16.37
+      "HourlyRateMale": 14.77,
+      "HourlyRateFemale": 17.59
     },
     "Other": {
-      "HourlyRateMale": 12.18,
-      "HourlyRateFemale": 12.44
+      "HourlyRateMale": 11.07,
+      "HourlyRateFemale": 10.63
     }
   },
   "22": {
     "Pasific Islander": {
-      "HourlyRateMale": 14,
-      "HourlyRateFemale": 18.2
+      "HourlyRateMale": 14.61,
+      "HourlyRateFemale": 18.22
     },
-    "HourlyRateMale": 25.26,
+    "HourlyRateMale": 23.77,
     "Native Hawaiian": {
-      "HourlyRateMale": 8.17,
-      "HourlyRateFemale": 14
+      "HourlyRateMale": 9.49,
+      "HourlyRateFemale": 15.27
     },
     "White": {
-      "HourlyRateMale": 27.64,
-      "HourlyRateFemale": 18.85
+      "HourlyRateMale": 26.21,
+      "HourlyRateFemale": 17.78
     },
-    "HourlyRateFemale": 18.84,
+    "HourlyRateFemale": 17.32,
     "American Indian": {
-      "HourlyRateMale": 18.03,
-      "HourlyRateFemale": 18.09
+      "HourlyRateMale": 16.79,
+      "HourlyRateFemale": 18.6
     },
     "Asian": {
-      "HourlyRateMale": 27.81,
-      "HourlyRateFemale": 20.57
+      "HourlyRateMale": 29.22,
+      "HourlyRateFemale": 20.32
     },
     "African American": {
-      "HourlyRateMale": 17.34,
-      "HourlyRateFemale": 18.68
+      "HourlyRateMale": 16.87,
+      "HourlyRateFemale": 16.24
     },
     "Other": {
-      "HourlyRateMale": 17.12,
-      "HourlyRateFemale": 14.22
+      "HourlyRateMale": 19.04,
+      "HourlyRateFemale": 14.01
     }
   },
   "23": {
     "Pasific Islander": {
-      "HourlyRateMale": 31,
-      "HourlyRateFemale": 12.34
+      "HourlyRateMale": 23.81,
+      "HourlyRateFemale": 11.69
     },
-    "HourlyRateMale": 19.85,
+    "HourlyRateMale": 20.21,
     "White": {
-      "HourlyRateMale": 19.83,
-      "HourlyRateFemale": 16.93
+      "HourlyRateMale": 20.21,
+      "HourlyRateFemale": 17.34
     },
-    "HourlyRateFemale": 16.94,
+    "HourlyRateFemale": 17.27,
     "American Indian": {
-      "HourlyRateMale": 13.8,
-      "HourlyRateFemale": 13.45
+      "HourlyRateMale": 15.24,
+      "HourlyRateFemale": 11.65
     },
     "Asian": {
-      "HourlyRateMale": 20.78,
+      "HourlyRateMale": 21.82,
       "HourlyRateFemale": 14.75
     },
     "African American": {
-      "HourlyRateMale": 17.53,
-      "HourlyRateFemale": 19.52
+      "HourlyRateMale": 18.81,
+      "HourlyRateFemale": 16.51
     },
     "Other": {
-      "HourlyRateMale": 25.5,
-      "HourlyRateFemale": 16.4
+      "HourlyRateMale": 25.6,
+      "HourlyRateFemale": 11.7
     }
   },
   "24": {
     "Pasific Islander": {
-      "HourlyRateMale": 37.87,
-      "HourlyRateFemale": 24.07
+      "HourlyRateMale": 38.98,
+      "HourlyRateFemale": 27.54
     },
-    "HourlyRateMale": 33.48,
+    "HourlyRateMale": 31.09,
     "Native Hawaiian": {
-      "HourlyRateMale": 33,
-      "HourlyRateFemale": 26.75
+      "HourlyRateMale": 33.89,
+      "HourlyRateFemale": 26.48
     },
     "White": {
-      "HourlyRateMale": 35.65,
-      "HourlyRateFemale": 26.22
+      "HourlyRateMale": 33.95,
+      "HourlyRateFemale": 25.06
     },
-    "HourlyRateFemale": 25.71,
+    "HourlyRateFemale": 24.32,
     "American Indian": {
-      "HourlyRateMale": 24.03,
-      "HourlyRateFemale": 26.95
+      "HourlyRateMale": 21.77,
+      "HourlyRateFemale": 25.69
     },
     "Asian": {
-      "HourlyRateMale": 45.22,
-      "HourlyRateFemale": 28.36
+      "HourlyRateMale": 39.71,
+      "HourlyRateFemale": 27.51
     },
     "African American": {
-      "HourlyRateMale": 24.82,
-      "HourlyRateFemale": 24.6
+      "HourlyRateMale": 23.96,
+      "HourlyRateFemale": 23.23
     },
     "Other": {
-      "HourlyRateMale": 17.21,
-      "HourlyRateFemale": 15.79
+      "HourlyRateMale": 16.62,
+      "HourlyRateFemale": 14.3
     }
   },
   "25": {
     "Pasific Islander": {
-      "HourlyRateMale": 20.95,
-      "HourlyRateFemale": 22.97
+      "HourlyRateMale": 23.85,
+      "HourlyRateFemale": 23.95
     },
-    "HourlyRateMale": 32.02,
+    "HourlyRateMale": 30.41,
     "Native Hawaiian": {
-      "HourlyRateMale": 10.34,
-      "HourlyRateFemale": 26
+      "HourlyRateMale": 10.08,
+      "HourlyRateFemale": 31.42
     },
     "White": {
-      "HourlyRateMale": 32.85,
-      "HourlyRateFemale": 25.39
+      "HourlyRateMale": 31.32,
+      "HourlyRateFemale": 24.53
     },
-    "HourlyRateFemale": 24.91,
+    "HourlyRateFemale": 24.06,
     "American Indian": {
-      "HourlyRateMale": 25.92,
-      "HourlyRateFemale": 20.8
+      "HourlyRateMale": 25.12,
+      "HourlyRateFemale": 20.28
     },
     "Asian": {
-      "HourlyRateMale": 33.43,
-      "HourlyRateFemale": 25.55
+      "HourlyRateMale": 33.6,
+      "HourlyRateFemale": 26.11
     },
     "African American": {
-      "HourlyRateMale": 22.69,
-      "HourlyRateFemale": 19.67
+      "HourlyRateMale": 21.84,
+      "HourlyRateFemale": 19.38
     },
     "Other": {
-      "HourlyRateMale": 18.4,
-      "HourlyRateFemale": 17.63
+      "HourlyRateMale": 17.08,
+      "HourlyRateFemale": 16.68
     }
   },
   "26": {
     "Pasific Islander": {
-      "HourlyRateMale": 15.86,
-      "HourlyRateFemale": 24.5
+      "HourlyRateMale": 13.99,
+      "HourlyRateFemale": 31.78
     },
-    "HourlyRateMale": 23.35,
+    "HourlyRateMale": 23.37,
     "Native Hawaiian": {
-      "HourlyRateMale": 18.6,
-      "HourlyRateFemale": 12.46
+      "HourlyRateMale": 21.17,
+      "HourlyRateFemale": 11.92
     },
     "White": {
-      "HourlyRateMale": 23.6,
-      "HourlyRateFemale": 18.44
+      "HourlyRateMale": 23.56,
+      "HourlyRateFemale": 18.3
     },
-    "HourlyRateFemale": 18.29,
+    "HourlyRateFemale": 18.01,
     "American Indian": {
-      "HourlyRateMale": 19.03,
-      "HourlyRateFemale": 13.37
+      "HourlyRateMale": 17.98,
+      "HourlyRateFemale": 13.35
     },
     "Asian": {
-      "HourlyRateMale": 29.12,
-      "HourlyRateFemale": 22.66
+      "HourlyRateMale": 29.17,
+      "HourlyRateFemale": 22.8
     },
     "African American": {
-      "HourlyRateMale": 19.19,
-      "HourlyRateFemale": 16
+      "HourlyRateMale": 20.57,
+      "HourlyRateFemale": 15.43
     },
     "Other": {
-      "HourlyRateMale": 16.32,
-      "HourlyRateFemale": 15.81
+      "HourlyRateMale": 15.5,
+      "HourlyRateFemale": 14.04
     }
   },
   "27": {
     "Pasific Islander": {
-      "HourlyRateMale": 337,
-      "HourlyRateFemale": 21.73
+      "HourlyRateMale": 139.06,
+      "HourlyRateFemale": 23.95
     },
-    "HourlyRateMale": 23.94,
+    "HourlyRateMale": 25.3,
     "Native Hawaiian": {
-      "HourlyRateMale": 25,
-      "HourlyRateFemale": 14.5
+      "HourlyRateMale": 26.96,
+      "HourlyRateFemale": 15.56
     },
     "White": {
-      "HourlyRateMale": 24.19,
-      "HourlyRateFemale": 20.48
+      "HourlyRateMale": 25.99,
+      "HourlyRateFemale": 21.5
     },
-    "HourlyRateFemale": 20.33,
+    "HourlyRateFemale": 21.12,
     "American Indian": {
-      "HourlyRateMale": 20.39,
-      "HourlyRateFemale": 13.82
+      "HourlyRateMale": 19.64,
+      "HourlyRateFemale": 13.52
     },
     "Asian": {
-      "HourlyRateMale": 31.02,
-      "HourlyRateFemale": 20.59
+      "HourlyRateMale": 26.06,
+      "HourlyRateFemale": 19.8
     },
     "Other": {
-      "HourlyRateMale": 13.62,
-      "HourlyRateFemale": 14.78
+      "HourlyRateMale": 13.89,
+      "HourlyRateFemale": 13.69
     },
     "African American": {
-      "HourlyRateMale": 17.85,
-      "HourlyRateFemale": 17.87
+      "HourlyRateMale": 17.33,
+      "HourlyRateFemale": 19.42
     }
   },
   "28": {
     "Pasific Islander": {
-      "HourlyRateMale": 21.2,
-      "HourlyRateFemale": 14.67
+      "HourlyRateMale": 26.06,
+      "HourlyRateFemale": 17.1
     },
-    "HourlyRateMale": 20.72,
+    "HourlyRateMale": 19.59,
     "Native Hawaiian": {
-      "HourlyRateMale": 20.67,
-      "HourlyRateFemale": 12.5
+      "HourlyRateMale": 21.78,
+      "HourlyRateFemale": 16.94
     },
     "White": {
-      "HourlyRateMale": 22.9,
-      "HourlyRateFemale": 22.1
+      "HourlyRateMale": 21.68,
+      "HourlyRateFemale": 19.69
     },
-    "HourlyRateFemale": 18.57,
+    "HourlyRateFemale": 16.88,
     "American Indian": {
-      "HourlyRateMale": 16.71,
-      "HourlyRateFemale": 15.6
+      "HourlyRateMale": 17.3,
+      "HourlyRateFemale": 18.77
     },
     "Asian": {
-      "HourlyRateMale": 26.65,
-      "HourlyRateFemale": 19.61
+      "HourlyRateMale": 26.45,
+      "HourlyRateFemale": 17.62
     },
     "African American": {
-      "HourlyRateMale": 15.47,
-      "HourlyRateFemale": 12.96
+      "HourlyRateMale": 15.01,
+      "HourlyRateFemale": 12.58
     },
     "Other": {
-      "HourlyRateMale": 14.58,
-      "HourlyRateFemale": 12.63
+      "HourlyRateMale": 14.46,
+      "HourlyRateFemale": 13.78
     }
   },
   "29": {
     "Pasific Islander": {
-      "HourlyRateMale": 25.25,
-      "HourlyRateFemale": 13.63
+      "HourlyRateMale": 26.11,
+      "HourlyRateFemale": 23.99
     },
-    "HourlyRateMale": 22.39,
+    "HourlyRateMale": 22.15,
     "Native Hawaiian": {
-      "HourlyRateMale": 9.67,
-      "HourlyRateFemale": 12.63
+      "HourlyRateMale": 9.29,
+      "HourlyRateFemale": 11.55
     },
     "White": {
       "HourlyRateMale": 22.64,
-      "HourlyRateFemale": 17.26
+      "HourlyRateFemale": 17.51
     },
-    "HourlyRateFemale": 17.18,
+    "HourlyRateFemale": 17.29,
     "American Indian": {
-      "HourlyRateMale": 21.57,
-      "HourlyRateFemale": 13.59
+      "HourlyRateMale": 15.32,
+      "HourlyRateFemale": 12.4
     },
     "Asian": {
-      "HourlyRateMale": 29.2,
-      "HourlyRateFemale": 19.61
+      "HourlyRateMale": 30.71,
+      "HourlyRateFemale": 20.33
     },
     "African American": {
-      "HourlyRateMale": 18.09,
-      "HourlyRateFemale": 16.28
+      "HourlyRateMale": 17.26,
+      "HourlyRateFemale": 15.62
     },
     "Other": {
-      "HourlyRateMale": 12.78,
-      "HourlyRateFemale": 13.3
+      "HourlyRateMale": 11.98,
+      "HourlyRateFemale": 13.16
     }
   },
   "30": {
-    "Pasific Islander": {"HourlyRateMale": 8.5},
-    "HourlyRateMale": 20.55,
-    "Native Hawaiian": {"HourlyRateFemale": 25.67},
+    "Pasific Islander": {"HourlyRateMale": 4.32},
+    "HourlyRateMale": 19.66,
+    "Native Hawaiian": {"HourlyRateFemale": 19.81},
     "White": {
-      "HourlyRateMale": 20.85,
-      "HourlyRateFemale": 17.74
+      "HourlyRateMale": 19.94,
+      "HourlyRateFemale": 17.39
     },
-    "HourlyRateFemale": 17.66,
+    "HourlyRateFemale": 17.2,
     "American Indian": {
-      "HourlyRateMale": 16.16,
-      "HourlyRateFemale": 16.22
+      "HourlyRateMale": 16.09,
+      "HourlyRateFemale": 14.5
     },
     "Asian": {
-      "HourlyRateMale": 16.15,
-      "HourlyRateFemale": 16.89
+      "HourlyRateMale": 13.59,
+      "HourlyRateFemale": 20.47
     },
     "African American": {
-      "HourlyRateMale": 13.5,
-      "HourlyRateFemale": 7.29
+      "HourlyRateMale": 13.21,
+      "HourlyRateFemale": 8.14
     },
     "Other": {
-      "HourlyRateMale": 10.86,
-      "HourlyRateFemale": 13.43
+      "HourlyRateMale": 10,
+      "HourlyRateFemale": 10.22
     }
   },
   "31": {
     "Pasific Islander": {
-      "HourlyRateMale": 16,
-      "HourlyRateFemale": 10.12
+      "HourlyRateMale": 16.18,
+      "HourlyRateFemale": 10.84
     },
-    "HourlyRateMale": 19.64,
+    "HourlyRateMale": 20.48,
     "Native Hawaiian": {"HourlyRateMale": 1},
     "White": {
-      "HourlyRateMale": 19.83,
-      "HourlyRateFemale": 16.1
+      "HourlyRateMale": 20.71,
+      "HourlyRateFemale": 16.57
     },
-    "HourlyRateFemale": 16.31,
+    "HourlyRateFemale": 16.82,
     "American Indian": {
-      "HourlyRateMale": 13.59,
-      "HourlyRateFemale": 11.78
+      "HourlyRateMale": 14.55,
+      "HourlyRateFemale": 12.04
     },
     "Asian": {
-      "HourlyRateMale": 25.73,
-      "HourlyRateFemale": 33.13
+      "HourlyRateMale": 25.9,
+      "HourlyRateFemale": 35.26
     },
     "African American": {
-      "HourlyRateMale": 13.71,
-      "HourlyRateFemale": 13.09
+      "HourlyRateMale": 15.72,
+      "HourlyRateFemale": 13.4
     },
     "Other": {
-      "HourlyRateMale": 14.65,
-      "HourlyRateFemale": 13.41
+      "HourlyRateMale": 13.42,
+      "HourlyRateFemale": 12.68
     }
   },
   "32": {
     "Pasific Islander": {
-      "HourlyRateMale": 16.98,
-      "HourlyRateFemale": 17.68
+      "HourlyRateMale": 17.39,
+      "HourlyRateFemale": 19.98
     },
-    "HourlyRateMale": 24.11,
+    "HourlyRateMale": 22.97,
     "Native Hawaiian": {
-      "HourlyRateMale": 15.6,
-      "HourlyRateFemale": 19.42
+      "HourlyRateMale": 13.3,
+      "HourlyRateFemale": 17.74
     },
     "White": {
-      "HourlyRateMale": 25.59,
-      "HourlyRateFemale": 21.99
+      "HourlyRateMale": 24.65,
+      "HourlyRateFemale": 21.47
     },
-    "HourlyRateFemale": 20.91,
+    "HourlyRateFemale": 20.21,
     "American Indian": {
-      "HourlyRateMale": 19.22,
-      "HourlyRateFemale": 18.65
+      "HourlyRateMale": 22.05,
+      "HourlyRateFemale": 17.12
     },
     "Asian": {
-      "HourlyRateMale": 26.54,
-      "HourlyRateFemale": 20.85
+      "HourlyRateMale": 25.22,
+      "HourlyRateFemale": 20.13
     },
     "African American": {
-      "HourlyRateMale": 18.81,
-      "HourlyRateFemale": 18.51
+      "HourlyRateMale": 17.58,
+      "HourlyRateFemale": 18.99
     },
     "Other": {
-      "HourlyRateMale": 14.9,
-      "HourlyRateFemale": 12.89
+      "HourlyRateMale": 15.27,
+      "HourlyRateFemale": 12.76
     }
   },
   "33": {
     "Pasific Islander": {
-      "HourlyRateMale": 19.25,
-      "HourlyRateFemale": 22
+      "HourlyRateMale": 10.84,
+      "HourlyRateFemale": 14.27
     },
-    "HourlyRateMale": 27.45,
-    "Native Hawaiian": {"HourlyRateMale": 17},
+    "HourlyRateMale": 26.97,
+    "Native Hawaiian": {"HourlyRateMale": 20.79},
     "White": {
-      "HourlyRateMale": 27.29,
-      "HourlyRateFemale": 21.15
+      "HourlyRateMale": 26.93,
+      "HourlyRateFemale": 20.68
     },
-    "HourlyRateFemale": 21.19,
+    "HourlyRateFemale": 20.73,
     "American Indian": {
-      "HourlyRateMale": 26.94,
-      "HourlyRateFemale": 14.88
+      "HourlyRateMale": 19.16,
+      "HourlyRateFemale": 15.2
     },
     "Asian": {
-      "HourlyRateMale": 31.2,
-      "HourlyRateFemale": 24.17
+      "HourlyRateMale": 31.15,
+      "HourlyRateFemale": 24.74
     },
     "African American": {
-      "HourlyRateMale": 27.69,
-      "HourlyRateFemale": 14.59
+      "HourlyRateMale": 22.89,
+      "HourlyRateFemale": 13.89
     },
     "Other": {
-      "HourlyRateMale": 31.17,
-      "HourlyRateFemale": 16.55
+      "HourlyRateMale": 29.21,
+      "HourlyRateFemale": 17.48
     }
   },
   "34": {
     "Pasific Islander": {
-      "HourlyRateMale": 16.55,
-      "HourlyRateFemale": 18.74
+      "HourlyRateMale": 18.8,
+      "HourlyRateFemale": 17.92
     },
-    "HourlyRateMale": 35.69,
+    "HourlyRateMale": 33.12,
     "Native Hawaiian": {
-      "HourlyRateMale": 23,
-      "HourlyRateFemale": 17.78
+      "HourlyRateMale": 18.31,
+      "HourlyRateFemale": 17.22
     },
     "White": {
-      "HourlyRateMale": 37.65,
-      "HourlyRateFemale": 26.19
+      "HourlyRateMale": 35.25,
+      "HourlyRateFemale": 25.23
     },
-    "HourlyRateFemale": 25.61,
+    "HourlyRateFemale": 24.52,
     "American Indian": {
-      "HourlyRateMale": 27.76,
-      "HourlyRateFemale": 19.25
+      "HourlyRateMale": 30.56,
+      "HourlyRateFemale": 19.34
     },
     "Asian": {
-      "HourlyRateMale": 41.79,
-      "HourlyRateFemale": 29.68
+      "HourlyRateMale": 40.91,
+      "HourlyRateFemale": 29.19
     },
     "African American": {
-      "HourlyRateMale": 23.35,
-      "HourlyRateFemale": 21.66
+      "HourlyRateMale": 22.46,
+      "HourlyRateFemale": 20.7
     },
     "Other": {
-      "HourlyRateMale": 18.99,
-      "HourlyRateFemale": 18.9
+      "HourlyRateMale": 18.74,
+      "HourlyRateFemale": 18.28
     }
   },
   "35": {
     "Pasific Islander": {
-      "HourlyRateMale": 73.5,
-      "HourlyRateFemale": 2.4
+      "HourlyRateMale": 80.32,
+      "HourlyRateFemale": 2.37
     },
-    "HourlyRateMale": 21.97,
-    "Native Hawaiian": {"HourlyRateFemale": 18.34},
+    "HourlyRateMale": 20.68,
+    "Native Hawaiian": {"HourlyRateFemale": 11.31},
     "White": {
-      "HourlyRateMale": 23.57,
-      "HourlyRateFemale": 18.3
+      "HourlyRateMale": 21.76,
+      "HourlyRateFemale": 16.89
     },
-    "HourlyRateFemale": 17.31,
+    "HourlyRateFemale": 16.39,
     "American Indian": {
-      "HourlyRateMale": 16.61,
-      "HourlyRateFemale": 14.75
+      "HourlyRateMale": 16.8,
+      "HourlyRateFemale": 14.12
     },
     "Asian": {
-      "HourlyRateMale": 25.81,
-      "HourlyRateFemale": 18.3
+      "HourlyRateMale": 23.78,
+      "HourlyRateFemale": 17.05
     },
     "Other": {
-      "HourlyRateMale": 17.24,
-      "HourlyRateFemale": 14.06
+      "HourlyRateMale": 15.73,
+      "HourlyRateFemale": 14.15
     },
     "African American": {
-      "HourlyRateMale": 19.13,
-      "HourlyRateFemale": 16.5
+      "HourlyRateMale": 17.16,
+      "HourlyRateFemale": 17.79
     }
   },
   "36": {
     "Pasific Islander": {
-      "HourlyRateMale": 19.46,
-      "HourlyRateFemale": 19
+      "HourlyRateMale": 21.14,
+      "HourlyRateFemale": 18.33
     },
-    "HourlyRateMale": 31.94,
+    "HourlyRateMale": 31.09,
     "Native Hawaiian": {
-      "HourlyRateMale": 18.17,
-      "HourlyRateFemale": 27.5
+      "HourlyRateMale": 17.8,
+      "HourlyRateFemale": 24.32
     },
     "White": {
-      "HourlyRateMale": 34.8,
-      "HourlyRateFemale": 25.54
+      "HourlyRateMale": 35.02,
+      "HourlyRateFemale": 25.24
     },
-    "HourlyRateFemale": 24.39,
+    "HourlyRateFemale": 23.72,
     "American Indian": {
-      "HourlyRateMale": 18.68,
-      "HourlyRateFemale": 18.64
+      "HourlyRateMale": 17.82,
+      "HourlyRateFemale": 17.25
     },
     "Asian": {
-      "HourlyRateMale": 27.28,
-      "HourlyRateFemale": 25.12
+      "HourlyRateMale": 27.26,
+      "HourlyRateFemale": 25.75
     },
     "African American": {
-      "HourlyRateMale": 22.4,
-      "HourlyRateFemale": 20.96
+      "HourlyRateMale": 21.88,
+      "HourlyRateFemale": 20.37
     },
     "Other": {
-      "HourlyRateMale": 17.38,
-      "HourlyRateFemale": 16.85
+      "HourlyRateMale": 16.58,
+      "HourlyRateFemale": 16.3
     }
   },
   "37": {
     "Pasific Islander": {
-      "HourlyRateMale": 15.89,
-      "HourlyRateFemale": 12.77
+      "HourlyRateMale": 16.76,
+      "HourlyRateFemale": 12.36
     },
-    "HourlyRateMale": 25.48,
+    "HourlyRateMale": 23.38,
     "Native Hawaiian": {
-      "HourlyRateMale": 11.59,
-      "HourlyRateFemale": 10
+      "HourlyRateMale": 12.78,
+      "HourlyRateFemale": 8.76
     },
     "White": {
-      "HourlyRateMale": 27.56,
-      "HourlyRateFemale": 20.91
+      "HourlyRateMale": 25.28,
+      "HourlyRateFemale": 19.32
     },
-    "HourlyRateFemale": 19.78,
+    "HourlyRateFemale": 18.53,
     "American Indian": {
-      "HourlyRateMale": 18.4,
-      "HourlyRateFemale": 15.1
+      "HourlyRateMale": 19.28,
+      "HourlyRateFemale": 15.7
     },
     "Asian": {
-      "HourlyRateMale": 28.96,
-      "HourlyRateFemale": 20.84
+      "HourlyRateMale": 28.15,
+      "HourlyRateFemale": 21.07
     },
     "African American": {
-      "HourlyRateMale": 16.77,
-      "HourlyRateFemale": 16.45
+      "HourlyRateMale": 16.96,
+      "HourlyRateFemale": 16.62
     },
     "Other": {
-      "HourlyRateMale": 13.41,
-      "HourlyRateFemale": 11.88
+      "HourlyRateMale": 12.52,
+      "HourlyRateFemale": 11.89
     }
   },
   "38": {
-    "Pasific Islander": {"HourlyRateFemale": 5.67},
-    "HourlyRateMale": 23.75,
+    "Pasific Islander": {"HourlyRateFemale": 4.16},
+    "HourlyRateMale": 22.56,
     "Native Hawaiian": {"HourlyRateFemale": 8},
     "White": {
-      "HourlyRateMale": 23.9,
-      "HourlyRateFemale": 17.37
+      "HourlyRateMale": 22.66,
+      "HourlyRateFemale": 18.06
     },
-    "HourlyRateFemale": 17.23,
+    "HourlyRateFemale": 17.71,
     "American Indian": {
-      "HourlyRateMale": 19.93,
-      "HourlyRateFemale": 15.68
+      "HourlyRateMale": 20.87,
+      "HourlyRateFemale": 13.37
     },
     "Asian": {
-      "HourlyRateMale": 19.37,
-      "HourlyRateFemale": 18.78
+      "HourlyRateMale": 12.61,
+      "HourlyRateFemale": 21.7
     },
     "African American": {
-      "HourlyRateMale": 19.36,
-      "HourlyRateFemale": 12.47
+      "HourlyRateMale": 20.64,
+      "HourlyRateFemale": 13.16
     },
     "Other": {
-      "HourlyRateMale": 37.15,
-      "HourlyRateFemale": 10
+      "HourlyRateMale": 53.96,
+      "HourlyRateFemale": 10.65
     }
   },
   "39": {
     "Pasific Islander": {
-      "HourlyRateMale": 24.44,
-      "HourlyRateFemale": 18.94
+      "HourlyRateMale": 25.26,
+      "HourlyRateFemale": 22.01
     },
-    "HourlyRateMale": 23.34,
+    "HourlyRateMale": 22.9,
     "Native Hawaiian": {
-      "HourlyRateMale": 20,
-      "HourlyRateFemale": 18.7
+      "HourlyRateMale": 30.65,
+      "HourlyRateFemale": 18.77
     },
     "White": {
-      "HourlyRateMale": 23.79,
-      "HourlyRateFemale": 18.62
+      "HourlyRateMale": 23.51,
+      "HourlyRateFemale": 18.52
     },
-    "HourlyRateFemale": 18.55,
+    "HourlyRateFemale": 18.32,
     "American Indian": {
-      "HourlyRateMale": 15.36,
-      "HourlyRateFemale": 21.34
+      "HourlyRateMale": 15.11,
+      "HourlyRateFemale": 20.92
     },
     "Asian": {
-      "HourlyRateMale": 37.62,
-      "HourlyRateFemale": 22.14
+      "HourlyRateMale": 37.42,
+      "HourlyRateFemale": 23.56
     },
     "African American": {
-      "HourlyRateMale": 16.44,
-      "HourlyRateFemale": 17.33
+      "HourlyRateMale": 16.14,
+      "HourlyRateFemale": 16.17
     },
     "Other": {
-      "HourlyRateMale": 15.54,
-      "HourlyRateFemale": 14.81
+      "HourlyRateMale": 16.37,
+      "HourlyRateFemale": 14.03
     }
   },
   "40": {
     "Pasific Islander": {
-      "HourlyRateMale": 17.72,
-      "HourlyRateFemale": 10.85
+      "HourlyRateMale": 20.34,
+      "HourlyRateFemale": 13.46
     },
-    "HourlyRateMale": 21.16,
+    "HourlyRateMale": 21.53,
     "Native Hawaiian": {
-      "HourlyRateMale": 26,
+      "HourlyRateMale": 31.91,
       "HourlyRateFemale": 20
     },
     "White": {
-      "HourlyRateMale": 22.19,
-      "HourlyRateFemale": 17.18
+      "HourlyRateMale": 22.72,
+      "HourlyRateFemale": 16.72
     },
-    "HourlyRateFemale": 16.65,
+    "HourlyRateFemale": 16.28,
     "American Indian": {
-      "HourlyRateMale": 17.62,
-      "HourlyRateFemale": 18.12
+      "HourlyRateMale": 17.1,
+      "HourlyRateFemale": 16.21
     },
     "Asian": {
-      "HourlyRateMale": 22.24,
-      "HourlyRateFemale": 16.07
+      "HourlyRateMale": 21.9,
+      "HourlyRateFemale": 16.35
     },
     "African American": {
-      "HourlyRateMale": 14.55,
-      "HourlyRateFemale": 13.76
+      "HourlyRateMale": 14.13,
+      "HourlyRateFemale": 13.62
     },
     "Other": {
-      "HourlyRateMale": 12.46,
-      "HourlyRateFemale": 10.7
+      "HourlyRateMale": 13.91,
+      "HourlyRateFemale": 11.8
     }
   },
   "41": {
     "Pasific Islander": {
-      "HourlyRateMale": 22.2,
-      "HourlyRateFemale": 29.97
+      "HourlyRateMale": 17.67,
+      "HourlyRateFemale": 16.95
     },
-    "HourlyRateMale": 25.2,
+    "HourlyRateMale": 23.02,
     "Native Hawaiian": {
-      "HourlyRateMale": 19.25,
-      "HourlyRateFemale": 17.6
+      "HourlyRateMale": 20.46,
+      "HourlyRateFemale": 16.39
     },
     "White": {
-      "HourlyRateMale": 25.43,
-      "HourlyRateFemale": 19.5
+      "HourlyRateMale": 23.28,
+      "HourlyRateFemale": 18.61
     },
-    "HourlyRateFemale": 19.54,
+    "HourlyRateFemale": 18.54,
     "American Indian": {
-      "HourlyRateMale": 20.87,
-      "HourlyRateFemale": 14.69
+      "HourlyRateMale": 16.15,
+      "HourlyRateFemale": 13.03
     },
     "Asian": {
-      "HourlyRateMale": 29.1,
-      "HourlyRateFemale": 20.78
+      "HourlyRateMale": 26.9,
+      "HourlyRateFemale": 19.89
     },
     "Other": {
-      "HourlyRateMale": 16.71,
-      "HourlyRateFemale": 18.85
+      "HourlyRateMale": 16.5,
+      "HourlyRateFemale": 14.76
     },
     "African American": {
-      "HourlyRateMale": 17.32,
-      "HourlyRateFemale": 25.04
+      "HourlyRateMale": 18.02,
+      "HourlyRateFemale": 19.77
     }
   },
   "42": {
     "Pasific Islander": {
-      "HourlyRateMale": 19.31,
-      "HourlyRateFemale": 16.15
+      "HourlyRateMale": 20.34,
+      "HourlyRateFemale": 21.13
     },
-    "HourlyRateMale": 24.01,
+    "HourlyRateMale": 24.25,
     "Native Hawaiian": {
-      "HourlyRateMale": 8.8,
-      "HourlyRateFemale": 13
+      "HourlyRateMale": 9.98,
+      "HourlyRateFemale": 17.36
     },
     "White": {
-      "HourlyRateMale": 24.28,
-      "HourlyRateFemale": 19.12
+      "HourlyRateMale": 24.64,
+      "HourlyRateFemale": 19.33
     },
-    "HourlyRateFemale": 19.2,
+    "HourlyRateFemale": 19.48,
     "American Indian": {
-      "HourlyRateMale": 17.11,
-      "HourlyRateFemale": 17.49
+      "HourlyRateMale": 17.34,
+      "HourlyRateFemale": 16.99
     },
     "Asian": {
-      "HourlyRateMale": 29.85,
-      "HourlyRateFemale": 23.32
+      "HourlyRateMale": 29.94,
+      "HourlyRateFemale": 22.42
     },
     "Other": {
-      "HourlyRateMale": 16.14,
-      "HourlyRateFemale": 14.68
+      "HourlyRateMale": 15.91,
+      "HourlyRateFemale": 14.07
     },
     "African American": {
-      "HourlyRateMale": 18.29,
-      "HourlyRateFemale": 19.42
+      "HourlyRateMale": 19.36,
+      "HourlyRateFemale": 20.54
     }
   }
 }
